@@ -45,5 +45,5 @@ chkconfig sshd on
 # 启动服务
 
 ```zsh
-docker run -ti -d -p 9443:443 9080:80 -p 9022:22 blog:v1 /bin/zsh
+docker run -ti -d -p 9443:443 -p 9080:80 -p 9022:22 blog:v1 /bin/zsh
 ```
