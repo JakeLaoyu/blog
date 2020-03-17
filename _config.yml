@@ -71,7 +71,7 @@ theme: next
 deploy:
   type: git
   repo:
-    阿里: ssh://root@127.0.0.1:9022/home/blog.git
+    阿里: ssh://root@47.100.56.24:9022/home/blog.git
   branch: master
 
 #rss
