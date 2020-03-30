@@ -259,9 +259,17 @@ post_wordcount:
 
 # Reward
 reward_comment: 如果觉得对您有帮助，请我喝杯咖啡可好☕️
-wechatpay: //blogimg.jakeyu.top/打赏/wechatpay.jpeg
+# wechatpay: //blogimg.jakeyu.top/打赏/wechatpay.jpeg
 #alipay: /images/alipay.jpg
 #bitcoin: /images/bitcoin.png
+
+# job
+job:
+  enable: true
+  desc: 长期招前端，欢迎投喂简历。
+  email: jake.laoyu@gmail.com
+  image: //blogimg.jakeyu.top/job/WechatIMG682.png
+  button: 要求
 
 # Declare license on posts
 post_copyright:
