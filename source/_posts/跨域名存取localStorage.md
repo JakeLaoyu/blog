@@ -13,13 +13,6 @@ original:
 permalink:
 ---
 
-以上是摘要
-
-<!--more-->
-
-以下是余下全文
-
-
 ![](//blogimg.jakeyu.top/跨域名读取localStorage/de1cd54ffb.png)
 
 <!--more-->
