@@ -3,6 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "dev": "hexo S",
+    "dev:draft": "hexo S --draft",
     "start": "hexo clean && hexo g && gulp && hexo d && hexo b"
   },
   "hexo": {
