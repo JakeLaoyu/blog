@@ -29,7 +29,7 @@ permalink:
 
 缺点是 `postMessage`  是基于回调的，所以所有 api 都是异步的。不过我们有 `promise`，所以可以忽略。
 
-![](//blogimg.jakeyu.top/跨域名读取localStorage/Jietu20200924-095241@2x.png)
+![](//blogimg.jakeyu.top/跨域名读取localStorage/图像2020-10-5.jpeg)
 
 # 实现
 ## 父级页面
