@@ -27,7 +27,7 @@ permalink:
 
 `a.jakeyu.top` 和 `b.jakeyu.top` 通过 `iframe` 加载同一个域名的页面，并使用 [postMessage](https://developer.mozilla.org/zh-CN/docs/Web/API/Window/postMessage) 和 `iframe` 中的页面进行通信，这样就可以实现跨域名存取 localStorage。
 
-缺点是 `postMessage`  是基于回调的，所以所有 api 都是异步的。不过我们有 `promise`，可以使使用方式优雅一些。
+缺点是 `postMessage`  是基于回调的，所以所有 api 都是异步的。不过我们有 `promise`，可以让使用方式优雅一些。
 
 ![](//blogimg.jakeyu.top/跨域名读取localStorage/图像2020-10-5.jpeg)
 
