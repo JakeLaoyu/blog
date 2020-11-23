@@ -6,7 +6,7 @@ tags:
   - 服务器
 author: 'Jake'
 date: 2017-03-16 21:40:46
-keywords:
+keywords: 梯子、翻墙、centos、v2ray、ss、shadowsocket
 comments:
 original:
 permalink:
@@ -15,6 +15,10 @@ permalink:
 ![](//blogimg.jakeyu.top/shadowsocks.png)
 
 <!--more-->
+
+{% note info %} 
+购买梯子 [V2Club](https://my.v2fly.club/#/register?code=C5EnE7vC)，支持全平台，安全、稳定。
+{% endnote %}
 
 ## socks5 全局代理
 ### 安装 sslocal
