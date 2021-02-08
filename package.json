@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "hexo S",
     "dev:draft": "hexo S --draft",
-    "start": "hexo clean && hexo g && gulp && hexo d && hexo b"
+    "publish": "hexo clean && hexo g && gulp && hexo d && hexo b"
   },
   "hexo": {
     "version": "4.2.1"
