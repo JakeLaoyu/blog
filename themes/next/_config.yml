@@ -163,10 +163,8 @@ links_title: Links
 # links_layout: block
 links_layout: inline
 links:
-  Kieran: http://go.kieran.top
   暮光博客: https://muguang.me/
   DIYGOD: https://diygod.me/
-  爱知网: http://www.snowruin.com/
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
