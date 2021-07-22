@@ -68,16 +68,12 @@ theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-# deploy:
-#   type: git
-#   repo:
-#     阿里: ssh://root@47.100.56.24:9022/home/blog.git
-#   branch: master
 deploy:
   type: git
-  repository:
-    github: git@github.com:JakeLaoyu/blog.git
-  branch: gh-page
+  repo:
+    阿里: ssh://root@47.100.56.24:9022/home/blog.git
+  branch: master
+
 
 #rss
 feed:
@@ -90,7 +86,6 @@ feed:
 backup:
   type: git
   repository:
-    github: git@github.com:JakeLaoyu/blog.git,master
     coding: git@e.coding.net:JakeLaoyu/HexoBlogBackup.git,master
     gitee: git@gitee.com:jakelaoyu/HexoBlogBackup.git,master
 
