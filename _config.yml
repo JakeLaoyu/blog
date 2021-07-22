@@ -68,11 +68,16 @@ theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
+# deploy:
+#   type: git
+#   repo:
+#     阿里: ssh://root@47.100.56.24:9022/home/blog.git
+#   branch: master
 deploy:
   type: git
-  repo:
-    阿里: ssh://root@47.100.56.24:9022/home/blog.git
-  branch: master
+  repository:
+    github: git@github.com:JakeLaoyu/blog.git
+  branch: gh-page
 
 #rss
 feed:
