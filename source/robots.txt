@@ -5,6 +5,11 @@ Allow: /archives/
 Allow: /about/
 Allow: /categories/
 Allow: /2016
+Allow: /2017
+Allow: /2018
+Allow: /2019
+Allow: /2020
+Allow: /2021
 Allow: /css/
 Allow: /fonts/
 
