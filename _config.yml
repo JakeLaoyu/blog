@@ -71,9 +71,9 @@ theme: next
 deploy:
   type: git
   repo:
-    阿里: git@github.com:JakeLaoyu/blog.git
+    github: git@github.com:JakeLaoyu/blog.git
+    腾讯云: root@110.40.198.64:/www/wwwroot/blog.git
   branch: gh-pages
-
 
 #rss
 feed:
