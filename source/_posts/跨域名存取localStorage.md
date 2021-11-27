@@ -232,5 +232,3 @@ new localStorage().setItem('name', 'jake')
 ```js
 const name = await new localStorage().getItem('name')
 ```
-
-1
