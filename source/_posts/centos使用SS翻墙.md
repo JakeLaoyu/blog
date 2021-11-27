@@ -17,7 +17,7 @@ permalink:
 <!--more-->
 
 {% note danger %} 
-梯子服务商推荐 [V2Club](https://my.v2fly.club/#/register?code=C5EnE7vC)，支持全平台，安全、稳定。
+梯子服务商推荐 [V2Club](https://join.v2fly.club/#/register?code=C5EnE7vC)，支持全平台，安全、稳定。
 {% endnote %}
 
 ## socks5 全局代理
