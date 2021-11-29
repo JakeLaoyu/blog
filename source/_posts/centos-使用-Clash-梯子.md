@@ -7,7 +7,7 @@ tags:
 author: Jake
 date: 2021-11-27 21:56:23
 description:
-keywords: 梯子、翻墙、centos、v2ray、ss、shadowsocket、clash、linux
+keywords: centos翻墙、梯子、翻墙、centos、v2ray、ss、shadowsocket、clash、linux
 comments:
 original:
 permalink:
