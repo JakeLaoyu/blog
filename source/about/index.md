@@ -23,7 +23,6 @@ noDate: "true"
 ### 项目:
 
 * [七牛图床管理](https://github.com/JakeLaoyu/qiniu-images-manager)
-* [Nodejs中文基础教程](https://github.com/JakeLaoyu/Nodejs-tutorial)
-* [基于gulp的前端脚手架](https://github.com/JakeLaoyu/generator-jake-front)
 * [Hexo博客chrome地址栏搜索](https://github.com/JakeLaoyu/hexo-browser-search)
+* [基于gulp的前端脚手架](https://github.com/JakeLaoyu/generator-jake-front)
 * [UMeditor vue版](https://github.com/JakeLaoyu/v-umeditor)
