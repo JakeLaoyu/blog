@@ -260,7 +260,7 @@ reward_comment: 如果觉得对您有帮助，请我喝杯咖啡可好☕️
 
 # job
 job:
-  enable: true
+  enable: false
   desc: 长期招前端，欢迎投喂简历。
   email: jake.laoyu@gmail.com
   image: //blogimg.jakeyu.top/job/WechatIMG682.png
