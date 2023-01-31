@@ -10,6 +10,8 @@ Allow: /2018
 Allow: /2019
 Allow: /2020
 Allow: /2021
+Allow: /2022
+Allow: /2023
 Allow: /css/
 Allow: /fonts/
 
