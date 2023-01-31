@@ -133,21 +133,21 @@ seo:
     fix: true
     # exclude from minify
     exclude:
-      - "*.min.{htm,html}"
+      # - "*.min.{htm,html}"
   # minify css
   css:
     enable: true
     # If you want to customize the css minifier settings, you can put below
     # exclude css from minifying, multiple supported
     exclude:
-      - "**/*.min.css"
+      # - "**/*.min.css"
   # minify js
   js:
     enable: true
     # If you want to customize the js minifier settings, you can put below
     # exclude css from minifying, multiple supported
     exclude:
-      - "**/*.min.js"
+      # - "**/*.min.js"
     # this is terser options, you can customize minifier with terser options https://github.com/terser/terser
     # below is config example
     options:
