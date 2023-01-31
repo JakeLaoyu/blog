@@ -1,0 +1,24 @@
+# hexo robots.txt
+User-agent: *
+Allow: /
+Allow: /archives/
+Allow: /about/
+Allow: /categories/
+Allow: /2016
+Allow: /2017
+Allow: /2018
+Allow: /2019
+Allow: /2020
+Allow: /2021
+Allow: /css/
+Allow: /fonts/
+
+Disallow: /vendors/
+Disallow: /js/
+# Disallow: /css/
+# Disallow: /fonts/
+Disallow: /vendors/
+Disallow: /fancybox/
+
+Sitemap: http://i.jakeyu.top/sitemap.xml
+Sitemap: http://i.jakeyu.top/baidusitemap.xml

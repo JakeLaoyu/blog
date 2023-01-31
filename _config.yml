@@ -5,9 +5,9 @@
 # Site
 title: Jake
 subtitle: 闲看四季，静候花开。
-description: Jake，2017年毕业于杭州电子科技大学，目前从事前端开发工作。此博客用于记录开发过程中踩到的坑以及一些关于前端技术的思考。
+description: 
 author: Jake
-language: zh-Hans
+language: zh-CN
 timezone:
 keywords: Jake,Web,前端,服务器,前端开发,JavaScript,html5,css3,Nodejs,centos
 
@@ -97,9 +97,138 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo:
+    github: git@github.com:JakeLaoyu/blog.git
+    腾讯云: root@110.40.198.64:/www/wwwroot/blog.git
+  branch: gh-pages
+
+#backup
+backup:
+  type: git
+  repository:
+    github: git@github.com:JakeLaoyu/blog.git,master
+    coding: git@e.coding.net:JakeLaoyu/HexoBlogBackup.git,master
+    gitee: git@gitee.com:jakelaoyu/HexoBlogBackup.git,master
+
+search:
+  path: localsearch.json
+  field: post
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+
+seo:
+  html:
+    enable: true
+    # fix invalid html
+    fix: true
+    # exclude from minify
+    exclude:
+      - "*.min.{htm,html}"
+  # minify css
+  css:
+    enable: true
+    # If you want to customize the css minifier settings, you can put below
+    # exclude css from minifying, multiple supported
+    exclude:
+      - "**/*.min.css"
+  # minify js
+  js:
+    enable: true
+    # If you want to customize the js minifier settings, you can put below
+    # exclude css from minifying, multiple supported
+    exclude:
+      - "**/*.min.js"
+    # this is terser options, you can customize minifier with terser options https://github.com/terser/terser
+    # below is config example
+    options:
+      compress:
+        dead_code: true
+      mangle:
+        toplevel: true
+        safari10: true
+  # add rich snippets on every posts and pages
+  schema:
+    article:
+      enable: true
+    breadcrumb:
+      enable: true
+    sitelink:
+      enable: true
+      searchUrl: https://i.jakeyu.top/search?search=
+  # this function still under development because JAVASCRIPT HEAP MEMORY and my device is 8GB RAM
+  img:
+    enable: true
+    # fix broken images
+    broken: false
+    # default broken images
+    default: https://upload.wikimedia.org/wikipedia/commons/6/65/No-Image-Placeholder.svg
+    # broken images methods
+    # serverside : process broken images from server side (caused javascript heap out of memory, if your post large and your device has insufficient memory)
+    # clientside : process broken image from client side browser with webjs
+    onerror: serverside
+  # external links fix
+  links:
+    # enable or false
+    enable: true
+    # allowed following links, otherwise nofollow others
+    exclude:
+      - i.jakeyu.top
+  # auto generate seo friendly sitemap on http://yoursite.com/sitemap.xml
+  # forked from yoast seo
+  sitemap: true
+
+algolia:
+  appId: "7G9RQPVF31"
+  apiKey: "e23862bac1a213474d02e27a91a64e65"
+  adminApiKey: "41496761577ae53f5d21a0a99ed2c4ba"
+  chunkSize: 5000
+  indexName: "blog"
+  fields:
+    - content:strip:truncate,0,500
+    - excerpt:strip
+    - gallery
+    - permalink
+    - photos
+    - slug
+    - tags
+    - title
+
+filter_optimize:
+  enable: true
+  # static resource versioning
+  versioning: false
+  css:
+    # minify all css files
+    minify: true
+    excludes:
+    # use preload to load css elements dynamically
+    delivery:
+      - '@fortawesome/fontawesome-free'
+      - 'fonts.googleapis.com'
+    # make specific css content inline into the html page
+    inlines:
+      # support full path only
+      - css/main.css
+  js:
+    # minify all js files
+    minify: true
+    excludes:
+    # remove the comments in each of the js files
+    remove_comments: false
+  html:
+    # minify all html files
+    minify: true
+    excludes:
+  # set the priority of this plugin,
+  # lower means it will be executed first, default of Hexo is 10
+  priority: 12
