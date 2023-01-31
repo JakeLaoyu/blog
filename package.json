@@ -9,7 +9,8 @@
     "server": "hexo server",
     "dev": "hexo server",
     "dev:draft": "hexo server --draft",
-    "release": "npm run clean && npm run build && npm run deploy"
+    "release": "npm run clean && npm run build && npm run deploy",
+    "backup": "hexo b"
   },
   "hexo": {
     "version": "6.3.0"
