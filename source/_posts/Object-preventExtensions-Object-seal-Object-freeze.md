@@ -1,5 +1,5 @@
 ---
-title: 'Object.preventExtensions(),Object.seal(),Object.freeze()'
+title: 'Object 方法'
 categories:
   - 前端
 tags:
@@ -14,7 +14,7 @@ permalink:
 ---
 
 | 方法                       | 描述                                                                                                                                                                           | 详情                                                                                                             |
-|:-------------------------- |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------- |
+| :------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
 | Object.preventExtensions() | 让一个对象变的不可扩展，也就是永远不能再添加新的属性。                                                                                                                         | [MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/preventExtensions) |
 | Object.isExtensible()      | 判断一个对象是否是可扩展的（是否可以在它上面添加新的属性）。                                                                                                                   | [MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/isExtensible)      |
 | Object.seal()              | 封闭一个对象，阻止添加新属性并将所有现有属性标记为不可配置。当前属性的值只要可写就可以改变。                                                                                   | [MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/seal)              |
