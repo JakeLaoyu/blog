@@ -3,7 +3,7 @@ name: Deploy to gh-page
 on:
   push:
     branches:
-      - main # default branch
+      - master # default branch
 
 jobs:
   deploy-gh-page:
