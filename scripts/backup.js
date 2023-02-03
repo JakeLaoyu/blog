@@ -1,5 +1,5 @@
-const exec = require("child_process").exec;
-const dayjs = require("dayjs");
+const execSync = require("child_process").execSync;
+const dayjs = require('dayjs')
 
 const execPromise = (command) => {
     return new Promise((resolve, reject) => {
@@ -15,7 +15,8 @@ const execPromise = (command) => {
 
 console.log(process.cwd())
 
-execPromise("git add .")
-    .then(() => execPromise(`git commit -m '${dayjs().format('YYYY-MM-DD HH:mm:ss')}'`))
-    .then(() => execPromise("git push"))
-    .then(() => console.log("Backup completed"))
+execSync("git add .")
+execSync(`git commit -m '${dayjs().format('YYYY-MM-DD HH:mm:ss')}'`)
+execSync("git push")
+
+console.log("Backup completed")
