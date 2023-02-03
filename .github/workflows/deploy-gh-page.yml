@@ -22,8 +22,18 @@ jobs:
         run: pnpm install --frozen-lockfile
       - name: Build
         run: npm run build
-      - name: Deploy
+      - name: Deploy to gh-page
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+
+      - name: Deploy to server
+        uses: actions/checkout@v3
+        with: 
+          ref: gh-pages
+        run: |
+          echo "${{ secrets.SERVER_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+          git init
+          git remote add origin root@110.40.198.64:/www/wwwroot/blog.git
+          git push -f origin master
