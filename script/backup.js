@@ -5,7 +5,7 @@ console.log('Start backup')
 
 execSync("git add .")
 execSync(`git commit -m '${dayjs().format('YYYY-MM-DD HH:mm:ss')}'`)
-console.log('start push')
+console.log('Start push')
 execSync("git push")
 
 console.log("Backup completed")
