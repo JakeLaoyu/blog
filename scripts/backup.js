@@ -15,8 +15,8 @@ const execPromise = (command) => {
 
 console.log(process.cwd())
 
-execSync("git add .")
-execSync(`git commit -m '${dayjs().format('YYYY-MM-DD HH:mm:ss')}'`)
-execSync("git push")
+execSync("git add .", { encoding: 'utf8' })
+execSync(`git commit -m '${dayjs().format('YYYY-MM-DD HH:mm:ss')}'`, { encoding: 'utf8' })
+execSync("git push", { encoding: 'utf8' })
 
 console.log("Backup completed")
