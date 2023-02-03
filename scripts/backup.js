@@ -13,8 +13,6 @@ const execPromise = (command) => {
     });
 }
 
-console.log(process.cwd())
-
 execSync("git add .")
 execSync(`git commit -m '${dayjs().format('YYYY-MM-DD HH:mm:ss')}'`)
 execSync("git push")
