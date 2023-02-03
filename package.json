@@ -1,5 +1,5 @@
 {
-  "name": "hexo-site",
+  "name": "blog",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -9,8 +9,8 @@
     "server": "hexo server",
     "dev": "hexo server",
     "dev:draft": "hexo server --draft",
-    "release": "npm run clean && npm run deploy",
-    "backup": "node ./scripts/backup.js"
+    "release": "npm run clean && npm run deploy && npm run backup",
+    "backup": "node ./script/backup.js"
   },
   "hexo": {
     "version": "6.3.0"
