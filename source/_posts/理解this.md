@@ -113,20 +113,3 @@ foo.method.call(foo);
 
 method前面的对象为foo，则此时前面的this指向foo对象。
 
-<!--## 测试
-
-考虑下面的代码会输出什么结果:
-
-```js
-var foo = {};
-foo.method = function() {
-    function test() {
-        console.log(this);
-    }
-    test();
-};
-
-foo.method();
-```
-
-答案在评论中。-->

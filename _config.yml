@@ -107,7 +107,6 @@ deploy:
       github: git@github.com:JakeLaoyu/blog.git
       腾讯云: root@110.40.198.64:/www/wwwroot/blog.git
     branch: gh-pages
-  - type: indexnow_url_submitter
 
 #backup
 backup:
@@ -203,3 +202,5 @@ algolia:
     - slug
     - tags
     - title
+
+all_minifier: true
