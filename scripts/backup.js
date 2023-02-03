@@ -16,3 +16,4 @@ const execPromise = (command) => {
 execPromise("git add .")
     .then(() => execPromise(`git commit -m '${dayjs().format('YYYY-MM-DD HH:mm:ss')}'`))
     .then(() => execPromise("git push"))
+    .then(() => console.log("Backup completed"))
