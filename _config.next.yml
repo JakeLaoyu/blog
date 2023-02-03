@@ -19,7 +19,7 @@ minify: false
 # Define custom file paths.
 # Create your custom files in site directory `source/_data` and uncomment needed files below.
 custom_file_path:
-  head: source/_data/head.njk
+  # head: source/_data/head.njk
   #header: source/_data/header.njk
   #sidebar: source/_data/sidebar.njk
   #postMeta: source/_data/post-meta.njk
@@ -472,11 +472,11 @@ google_site_verification: cz8Mg3uYnDt-czcMDitsmcjurvx-XknIM7wRb1-TNNo
 
 # Bing Webmaster tools verification.
 # See: https://www.bing.com/webmasters
-bing_site_verification: F08CFA7822817EA63CAA96F299A3600E
+bing_site_verification: 
 
 # Yandex Webmaster tools verification.
 # See: https://webmaster.yandex.ru
-yandex_site_verification:
+yandex_site_verification: 
 
 # Baidu Webmaster tools verification.
 # See: https://ziyuan.baidu.com/site
