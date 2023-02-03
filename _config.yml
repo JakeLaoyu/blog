@@ -113,8 +113,6 @@ backup:
   type: git
   repository:
     github: git@github.com:JakeLaoyu/blog.git,master
-    coding: git@e.coding.net:JakeLaoyu/HexoBlogBackup.git,master
-    gitee: git@gitee.com:jakelaoyu/HexoBlogBackup.git,master
 
 search:
   path: localsearch.json
