@@ -3,43 +3,43 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://i.jakeyu.top</loc>
-    <lastmod>2023-02-03T16:44:12+00:00</lastmod>
+    <lastmod>2023-02-03T16:47:04+00:00</lastmod>
     <priority>1</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://i.jakeyu.top/404.html</loc>
-    <lastmod>2023-02-03T16:44:04+00:00</lastmod>
+    <lastmod>2023-02-03T16:46:55+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://i.jakeyu.top/about/index.html</loc>
-    <lastmod>2023-02-03T16:44:04+00:00</lastmod>
+    <lastmod>2023-02-03T16:46:55+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://i.jakeyu.top/article-recommended/index.html</loc>
-    <lastmod>2023-02-03T16:44:04+00:00</lastmod>
+    <lastmod>2023-02-03T16:46:55+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://i.jakeyu.top/categories/index.html</loc>
-    <lastmod>2023-02-03T16:44:04+00:00</lastmod>
+    <lastmod>2023-02-03T16:46:55+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://i.jakeyu.top/demo/CSS3%E8%87%AA%E5%AE%9A%E4%B9%89%E6%BB%9A%E5%8A%A8%E6%9D%A1%E6%A0%B7%E5%BC%8F.html</loc>
-    <lastmod>2023-02-03T16:44:04+00:00</lastmod>
+    <lastmod>2023-02-03T16:46:55+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://i.jakeyu.top/tags/index.html</loc>
-    <lastmod>2023-02-03T16:44:04+00:00</lastmod>
+    <lastmod>2023-02-03T16:46:55+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
