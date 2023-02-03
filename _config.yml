@@ -108,12 +108,6 @@ deploy:
       腾讯云: root@110.40.198.64:/www/wwwroot/blog.git
     branch: gh-pages
 
-#backup
-backup:
-  type: git
-  repository:
-    github: git@github.com:JakeLaoyu/blog.git,master
-
 search:
   path: localsearch.json
   field: post
