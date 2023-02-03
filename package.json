@@ -5,11 +5,11 @@
   "scripts": {
     "build": "hexo generate",
     "clean": "hexo clean",
-    "deploy": "hexo deploy",
+    "deploy": "hexo deploy -g",
     "server": "hexo server",
     "dev": "hexo server",
     "dev:draft": "hexo server --draft",
-    "release": "npm run clean && npm run build && npm run deploy",
+    "release": "npm run deploy",
     "backup": "hexo b"
   },
   "hexo": {
