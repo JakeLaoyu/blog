@@ -73,7 +73,7 @@ jobs:
 
 ### action 配置
 
-在上文的配置基础上，增加如下配置:
+在[上文的配置](#action-配置)基础上，增加如下配置:
 
 ```yml
 deploy-to-server:
