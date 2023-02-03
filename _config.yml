@@ -228,14 +228,8 @@ filter_optimize:
     remove_comments: false
   html:
     # minify all html files
-    minify: true
+    minify: false
     excludes:
   # set the priority of this plugin,
   # lower means it will be executed first, default of Hexo is 10
   priority: 12
-
-hexo_indexnow:
-  count: latest # 数字或者 "latest"(=1)
-  txt_name: indexnow.txt # 链接文件名
-  apikey: 60064e1d1bfd41afaa9012f7de2c592a # 你的 apikey
-  server: bing # indexnow 服务器，可选值有:bing、yandex、indexnow

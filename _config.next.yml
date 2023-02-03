@@ -11,7 +11,7 @@
 
 # Allow to cache content generation.
 cache:
-  enable: true
+  enable: false
 
 # Remove unnecessary files after hexo generate.
 minify: false
@@ -476,11 +476,11 @@ bing_site_verification:
 
 # Yandex Webmaster tools verification.
 # See: https://webmaster.yandex.ru
-yandex_site_verification: 
+yandex_site_verification: fcdddfb0b85b6a5b
 
 # Baidu Webmaster tools verification.
 # See: https://ziyuan.baidu.com/site
-baidu_site_verification: 
+baidu_site_verification: LcXTPmQBZN
 
 
 # ---------------------------------------------------------------
