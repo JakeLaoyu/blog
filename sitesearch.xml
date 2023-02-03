@@ -1,0 +1,8 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+<InputEncoding>utf-8</InputEncoding>
+<ShortName>Jake的博客</ShortName>
+<Description>每个不曾起舞的日子，都是对生命的辜负。</Description>
+<Image height="16" width="16" type="image/x-icon">https://i.jakeyu.top/favicon.ico</Image>
+<Url type="text/html" template="https://i.jakeyu.top/search?search={searchTerms}"/>
+<moz:SearchForm>https://i.jakeyu.top/search</moz:SearchForm>
+</OpenSearchDescription>
