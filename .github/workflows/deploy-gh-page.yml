@@ -36,18 +36,22 @@ jobs:
         uses: actions/checkout@v3
         with: 
           ref: gh-pages
-      # - name: Deploy to server
-        # run: |
-        #   install -m 600 -D /dev/null ~/.ssh/id_rsa
-        #   echo "${{ secrets.SERVER_PRIVATE_KEY }}" > ~/.ssh/id_rsa
-        #   git remote add server root@110.40.198.64:/www/wwwroot/blog.git
-        #   git push -f server gh-pages
-      - name: deploy file
-        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+      - name: Deploy to server
+        uses: wei/git-sync@v3
         with:
-            username: 'root'
-            server: '110.40.198.64'
-            ssh_private_key: ${{ secrets.SERVER_PRIVATE_KEY }} 
-            local_path: '.'
-            remote_path: '/www/wwwroot/blog'
-            sftpArgs: '-o ConnectTimeout=5'
+        source_repo: "JakeLaoyu/blog"
+        source_branch: "gh-pages"
+        destination_repo: "root@110.40.198.64:/www/wwwroot/blog.git"
+        destination_branch: "gh-pages"
+        ssh_private_key: ${{ secrets.SERVER_PRIVATE_KEY }} # optional
+        # source_ssh_private_key: ${{ secrets.SOURCE_SSH_PRIVATE_KEY }} # optional, will override `SSH_PRIVATE_KEY`
+        # destination_ssh_private_key: ${{ secrets.DESTINATION_SSH_PRIVATE_KEY }} # optional, will override `SSH_PRIVATE_KEY`
+      # - name: deploy file
+      #   uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+      #   with:
+      #       username: 'root'
+      #       server: '110.40.198.64'
+      #       ssh_private_key: ${{ secrets.SERVER_PRIVATE_KEY }} 
+      #       local_path: '.'
+      #       remote_path: '/www/wwwroot/blog'
+      #       sftpArgs: '-o ConnectTimeout=5'
