@@ -44,6 +44,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+        with:
+          ref: master
+          fetch-depth: 0
       - uses: pnpm/action-setup@v2
         with:
           version: 7
