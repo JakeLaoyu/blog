@@ -3,8 +3,12 @@ const dayjs = require('dayjs')
 
 console.log('Start backup')
 
-execSync("git add .")
-execSync(`git commit -m '${dayjs().format('YYYY-MM-DD HH:mm:ss')}'`)
+try {
+    execSync("git add .")
+    execSync(`git commit -m '${dayjs().format('YYYY-MM-DD HH:mm:ss')}'`)
+} catch (error) {
+
+}
 console.log('Start push')
 execSync("git push")
 
