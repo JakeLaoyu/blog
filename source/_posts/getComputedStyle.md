@@ -1,13 +1,14 @@
 ---
-title: getComputedStyle
+title: 获取元素样式
 categories:
   - 前端
 tags:
   - CSS
+  - JS
 author: Jake
 date: 2018-11-29 21:55:35
 description:
-keywords: getComputedStyle,style,defaultView
+keywords: getComputedStyle,style,defaultView,元素,样式
 comments:
 original:
 permalink:
