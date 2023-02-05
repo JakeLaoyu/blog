@@ -12,6 +12,7 @@ specifiers:
   hexo-generator-index: ^3.0.0
   hexo-generator-search: ^2.4.3
   hexo-generator-searchdb: ^1.4.1
+  hexo-generator-seo-friendly-sitemap: ^0.2.1
   hexo-generator-tag: ^2.0.0
   hexo-renderer-ejs: ^2.0.0
   hexo-renderer-marked: ^6.0.0
@@ -35,6 +36,7 @@ dependencies:
   hexo-generator-index: 3.0.0
   hexo-generator-search: 2.4.3
   hexo-generator-searchdb: 1.4.1
+  hexo-generator-seo-friendly-sitemap: 0.2.1
   hexo-generator-tag: 2.0.0
   hexo-renderer-ejs: 2.0.0
   hexo-renderer-marked: 6.0.0
@@ -604,6 +606,10 @@ packages:
     dependencies:
       readable-stream: 2.3.7
       safe-buffer: 5.2.1
+    dev: false
+
+  /bluebird/3.5.4:
+    resolution: {integrity: sha512-FG+nFEZChJrbQ9tIccIfZJBz3J7mLrAhxakAbnrJWn8d7aKOC+LWifa0G+p4ZqKp4y13T7juYvdhq9NzKdsrjw==}
     dev: false
 
   /bluebird/3.7.2:
@@ -1364,6 +1370,11 @@ packages:
 
   /ee-first/1.1.1:
     resolution: {integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==}
+    dev: false
+
+  /ejs/2.6.1:
+    resolution: {integrity: sha512-0xy4A/twfrRCnkhfk8ErDi5DqdAsAqeGxht4xkCUrsvhhbQNs7E+4jV0CN7+NKIY0aHE72+XvqtBIXzD31ZbXQ==}
+    engines: {node: '>=0.10.0'}
     dev: false
 
   /ejs/3.1.8:
@@ -2172,6 +2183,18 @@ packages:
       - chokidar
     dev: false
 
+  /hexo-generator-seo-friendly-sitemap/0.2.1:
+    resolution: {integrity: sha512-DtEulX/7U2X4bRLztb6cDtHEvtwhEPSaL6shaxNtk2oPljJlnep9vFGGlF3KvTD1XADxSOtvVHd3RKWZEXl9WA==}
+    engines: {node: '>=8.0.0'}
+    dependencies:
+      bluebird: 3.5.4
+      ejs: 2.6.1
+      lodash: 4.17.12
+      moment: 2.24.0
+      pretty-data: 0.40.0
+      url-join: 4.0.0
+    dev: false
+
   /hexo-generator-tag/2.0.0:
     resolution: {integrity: sha512-1px/hF3veEohWDN8jjzchQhaiz+uOStUvvMaBJC9vWOlALh30UFcapL8IrvAwwJZjFRVA+WqGgDRqoQ8+yaaFw==}
     engines: {node: '>=14'}
@@ -2978,6 +3001,10 @@ packages:
       strip-bom: 2.0.0
     dev: false
 
+  /lodash/4.17.12:
+    resolution: {integrity: sha512-+CiwtLnsJhX03p20mwXuvhoebatoh5B3tt+VvYlrPgZC1g36y+RRbkufX95Xa+X4I59aWEacDFYwnJZiyBh9gA==}
+    dev: false
+
   /logalot/2.1.0:
     resolution: {integrity: sha512-Ah4CgdSRfeCJagxQhcVNMi9BfGYyEKLa6d7OA6xSbld/Hg3Cf2QiOa1mDpmG7Ve8LOH6DN3mdttzjQAvWTyVkw==}
     engines: {node: '>=0.10.0'}
@@ -3283,6 +3310,10 @@ packages:
     resolution: {integrity: sha512-tWfmNkRYmBkPJz5mr9GVDn9vRlVZOTe6yqY92rFxiOdWXbjaR0+9LwQnZGGuNR63X456NqmEkbskte8tWL5ePg==}
     dependencies:
       moment: 2.29.4
+    dev: false
+
+  /moment/2.24.0:
+    resolution: {integrity: sha512-bV7f+6l2QigeBBZSM/6yTNq4P2fNpSWj/0e7jQcy87A8e7o2nAfP/34/2ky5Vw4B9S446EtIhodAzkFCcR4dQg==}
     dev: false
 
   /moment/2.29.4:
@@ -3862,6 +3893,10 @@ packages:
   /prepend-http/2.0.0:
     resolution: {integrity: sha512-ravE6m9Atw9Z/jjttRUZ+clIXogdghyZAuWJ3qEzjT+jI/dL1ifAqhZeC5VHzQp1MSt1+jxKkFNemj/iO7tVUA==}
     engines: {node: '>=4'}
+    dev: false
+
+  /pretty-data/0.40.0:
+    resolution: {integrity: sha512-YFLnEdDEDnkt/GEhet5CYZHCvALw6+Elyb/tp8kQG03ZSIuzeaDWpZYndCXwgqu4NAjh1PI534dhDS1mHarRnQ==}
     dev: false
 
   /pretty-hrtime/1.0.3:
@@ -4835,6 +4870,10 @@ packages:
       punycode: 2.3.0
     dev: false
     optional: true
+
+  /url-join/4.0.0:
+    resolution: {integrity: sha512-EGXjXJZhIHiQMK2pQukuFcL303nskqIRzWvPvV5O8miOfwoUb9G+a/Cld60kUyeaybEI94wvVClT10DtfeAExA==}
+    dev: false
 
   /url-parse-lax/1.0.0:
     resolution: {integrity: sha512-BVA4lR5PIviy2PMseNd2jbFQ+jwSwQGdJejf5ctd1rEXt0Ypd7yanUK9+lYechVlN5VaTJGsu2U/3MDDu6KgBA==}
