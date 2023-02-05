@@ -123,6 +123,9 @@ sitemap:
   tag: false
   category: false
 
+baidusitemap:
+  path: baidusitemap.xml
+
 algolia:
   appId: "7G9RQPVF31"
   apiKey: "e23862bac1a213474d02e27a91a64e65"
