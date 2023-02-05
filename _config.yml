@@ -125,6 +125,7 @@ seo:
     fix: true
     # exclude from minify
     exclude:
+      - 404.html
       # - "*.min.{htm,html}"
   # minify css
   css:
