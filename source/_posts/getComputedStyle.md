@@ -118,7 +118,7 @@ styleObj.setProperty('color', 'red', 'important')
 
 # 兼容性
 
-[CANIUSE](https://caniuse.com/#search=getComputedStyle)
+{% caniuse getcomputedstyle  %}
 
 # 参考
 
