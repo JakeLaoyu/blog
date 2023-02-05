@@ -18,14 +18,7 @@ permalink:
 
 ## 兼容性
 
-`btoa`和`atob`在除IE之外的浏览器上都能够得到良好的兼容：
-```
-IE：10+
-Chrome：4+
-Firefox：2+
-Safari：3.1+
-Opera：11.5+
-```
+{% caniuse atob-btoa %}
 
 ## 编码base64函数btoa
 提示：函数名中的b表示binary即原始的待编码数据，a表示ASCII，即编码后的结果（base64编码后，就只是纯的ASCII字符），btoa就是将binary的数据转为ASCII字符（串）。
