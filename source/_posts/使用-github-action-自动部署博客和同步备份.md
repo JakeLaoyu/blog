@@ -2,8 +2,12 @@
 title: 使用 github action 自动部署博客和同步备份
 categories:
   - 前端
+  - 服务器
+  - CI/CD
 tags:
-  - JS
+  - 前端
+  - 服务器
+  - CI/CD
 author: Jake
 date: 2023-02-04 00:14:33
 description:
