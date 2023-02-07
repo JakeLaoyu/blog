@@ -12,7 +12,6 @@ specifiers:
   hexo-generator-feed: ^3.0.0
   hexo-generator-index: ^3.0.0
   hexo-generator-json-content: ^4.2.3
-  hexo-generator-search: ^2.4.3
   hexo-generator-searchdb: ^1.4.1
   hexo-generator-seo-friendly-sitemap: ^0.2.1
   hexo-generator-tag: ^2.0.0
@@ -37,7 +36,6 @@ dependencies:
   hexo-generator-feed: 3.0.0
   hexo-generator-index: 3.0.0
   hexo-generator-json-content: 4.2.3
-  hexo-generator-search: 2.4.3
   hexo-generator-searchdb: 1.4.1
   hexo-generator-seo-friendly-sitemap: 0.2.1
   hexo-generator-tag: 2.0.0
@@ -2162,16 +2160,6 @@ packages:
       hexo-util: 3.0.1
       keyword-extractor: 0.0.24
       moment: 2.29.4
-    dev: false
-
-  /hexo-generator-search/2.4.3:
-    resolution: {integrity: sha512-Z5hfZq2g3np/Tgdp2q9HobfIvU6Pdz89tnTurc1IIq/vW0MHgDynk0Aiv6kvMtKWthnZ5l0iEMT3YLN35NdYwQ==}
-    engines: {node: '>= 0.10.0'}
-    dependencies:
-      nunjucks: 3.2.3
-      utils-merge: 1.0.1
-    transitivePeerDependencies:
-      - chokidar
     dev: false
 
   /hexo-generator-searchdb/1.4.1:

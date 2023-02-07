@@ -108,10 +108,6 @@ deploy:
       腾讯云: root@110.40.198.64:/www/wwwroot/blog.git
     branch: gh-pages
 
-search:
-  path: localsearch.json
-  field: post
-
 feed:
   type: atom
   path: atom.xml
@@ -147,7 +143,7 @@ all_minifier: true
 jsonContent:
   meta: false
   drafts: false
-  file: content.json
+  file: localsearch.json
   keywords: undefined
   dateFormat: YYYY-MM-DD HH:mm:ss
   tags: false
