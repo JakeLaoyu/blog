@@ -143,3 +143,28 @@ algolia:
     - title
 
 all_minifier: true
+
+jsonContent:
+  meta: true
+  drafts: false
+  file: content.json
+  keywords: undefined
+  dateFormat: undefined
+  pages: false
+  posts:
+    title: true
+    slug: true
+    date: true
+    updated: true
+    comments: true
+    path: true
+    link: true
+    permalink: true
+    excerpt: true
+    keywords: false
+    text: true
+    raw: false
+    content: false
+    author: true
+    categories: true
+    tags: true
