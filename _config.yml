@@ -145,11 +145,13 @@ algolia:
 all_minifier: true
 
 jsonContent:
-  meta: true
+  meta: false
   drafts: false
   file: content.json
   keywords: undefined
   dateFormat: undefined
+  tags: false
+  categories: false
   pages: false
   posts:
     title: true
