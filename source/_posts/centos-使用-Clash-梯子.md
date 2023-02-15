@@ -19,7 +19,7 @@ permalink:
 
 <!--more-->
 
-# 下载 clash
+## 下载 clash
 
 去 [github](https://github.com/Dreamacro/clash/releases) 下载最新 linux 版本，一般使用 `linux-amd64`。
 
@@ -38,11 +38,11 @@ l ~/.config/clash
 -rw-r--r-- 1 root root 5.7M 11月 24 16:02 Country.mmdb
 ```
 
-# 配置
+## 配置
 
 我是用的是 [V2Club](https://join.v2fly.club/#/register?code=C5EnE7vC)。
 
-## 复制订阅地址
+### 复制订阅地址
 
 ![](http://blogimg.jakeyu.top/centos-%E4%BD%BF%E7%94%A8-Clash-%E6%A2%AF%E5%AD%90/iShot2021-11-27%2023.29.16.png)
 
@@ -50,7 +50,7 @@ l ~/.config/clash
 
 使用这份配置覆盖 `~/.config/clash/config.yaml`。
 
-## 启动代理
+### 启动代理
 
 然后启动 clash
 
@@ -70,7 +70,7 @@ export ALL_PROXY=socks5://127.0.0.1:7891
 curl https://www.google.com
 ```
 
-# 远程管理
+## 远程管理
 
 修改配置文件
 
