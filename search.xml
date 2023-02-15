@@ -1289,17 +1289,17 @@ hexo d -g
 <p><img data-src="//blogimg.jakeyu.top/centos-%E4%BD%BF%E7%94%A8-Clash-%E6%A2%AF%E5%AD%90/logo.png"></p>
 <span id="more"></span>
 
-<h1 id="下载-clash"><a href="#下载-clash" class="headerlink" title="下载 clash"></a>下载 clash</h1><p>去 <a href="https://github.com/Dreamacro/clash/releases">github</a> 下载最新 linux 版本，一般使用 <code>linux-amd64</code>。</p>
+<h2 id="下载-clash"><a href="#下载-clash" class="headerlink" title="下载 clash"></a>下载 clash</h2><p>去 <a href="https://github.com/Dreamacro/clash/releases">github</a> 下载最新 linux 版本，一般使用 <code>linux-amd64</code>。</p>
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">gunzip clash-linux-amd64-v1.8.0.gz</span><br><span class="line">mv clash-linux-amd64-v1.8.0 ~/clash</span><br><span class="line">chmod +x ~/clash</span><br><span class="line">./clash</span><br></pre></td></tr></table></figure>
 
 <p>一套执行完后会生成默认配置文件 <code>~/.config/clash</code></p>
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">l ~/.config/clash</span><br><span class="line">-rw-r--r-- 1 root root 190K 11月 24 16:38 config.yaml</span><br><span class="line">-rw-r--r-- 1 root root 5.7M 11月 24 16:02 Country.mmdb</span><br></pre></td></tr></table></figure>
 
-<h1 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h1><p>我是用的是 <a href="https://join.v2fly.club/#/register?code=C5EnE7vC">V2Club</a>。</p>
-<h2 id="复制订阅地址"><a href="#复制订阅地址" class="headerlink" title="复制订阅地址"></a>复制订阅地址</h2><p><img data-src="http://blogimg.jakeyu.top/centos-%E4%BD%BF%E7%94%A8-Clash-%E6%A2%AF%E5%AD%90/iShot2021-11-27%2023.29.16.png"></p>
+<h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p>我是用的是 <a href="https://join.v2fly.club/#/register?code=C5EnE7vC">V2Club</a>。</p>
+<h3 id="复制订阅地址"><a href="#复制订阅地址" class="headerlink" title="复制订阅地址"></a>复制订阅地址</h3><p><img data-src="http://blogimg.jakeyu.top/centos-%E4%BD%BF%E7%94%A8-Clash-%E6%A2%AF%E5%AD%90/iShot2021-11-27%2023.29.16.png"></p>
 <p>这个配置我们不能直接使用，需要使用 <a href="https://acl4ssr-sub.github.io/">https://acl4ssr-sub.github.io/</a> 服务生成订阅地址，然后打开订阅地址就可以看到明文配置。</p>
 <p>使用这份配置覆盖 <code>~/.config/clash/config.yaml</code>。</p>
-<h2 id="启动代理"><a href="#启动代理" class="headerlink" title="启动代理"></a>启动代理</h2><p>然后启动 clash</p>
+<h3 id="启动代理"><a href="#启动代理" class="headerlink" title="启动代理"></a>启动代理</h3><p>然后启动 clash</p>
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">./clash</span><br></pre></td></tr></table></figure>
 
 <p>设置终端使用 clash 代理</p>
@@ -1308,7 +1308,7 @@ hexo d -g
 <p>可以使用 <code>curl</code> 测试是否连接成功。</p>
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">curl https://www.google.com</span><br></pre></td></tr></table></figure>
 
-<h1 id="远程管理"><a href="#远程管理" class="headerlink" title="远程管理"></a>远程管理</h1><p>修改配置文件</p>
+<h2 id="远程管理"><a href="#远程管理" class="headerlink" title="远程管理"></a>远程管理</h2><p>修改配置文件</p>
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">vim ~/.config/clash/config.yaml</span><br></pre></td></tr></table></figure>
 
 <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">external-controller:</span> <span class="number">0.0</span><span class="number">.0</span><span class="number">.0</span><span class="string">:9090</span></span><br><span class="line"><span class="comment"># 一定要配置 secret，用来远程访问安全</span></span><br><span class="line"><span class="attr">secret:</span> <span class="string">xxxx</span></span><br></pre></td></tr></table></figure>
