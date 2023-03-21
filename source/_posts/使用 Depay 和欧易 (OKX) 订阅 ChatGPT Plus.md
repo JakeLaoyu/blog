@@ -23,7 +23,7 @@ Depay 是一个虚拟信用卡服务提供商，可以将 USDT 转换为美元�
 
 ### 1.1 注册 Depay 账户
 
-使用此链接: https://depay.depay.one/web-app/register-h5?invitCode=876620&lang=zh-cn，填写信息并输入邀请码 `876620` 来注册 Depay 虚拟 Master 卡或 Visa 卡。
+使用此链接: [https://depay.depay.one/web-app/register-h5?invitCode=876620&lang=zh-cn](https://depay.depay.one/web-app/register-h5?invitCode=876620&lang=zh-cn)，填写信息并输入邀请码 `876620` 来注册 Depay 虚拟 Master 卡或 Visa 卡。
 
 ### 1.2 完成身份认证
 
