@@ -163,3 +163,9 @@ jsonContent:
     author: true
     categories: true
     tags: true
+
+search:
+  path: search.xml
+  field: post
+  content: true
+  format: html
