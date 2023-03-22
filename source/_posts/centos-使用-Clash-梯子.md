@@ -40,7 +40,7 @@ l ~/.config/clash
 
 ## 配置
 
-我是用的是 [V2Club](https://join.v2fly.club/#/register?code=C5EnE7vC)。
+我是用的是 [V2Club](https://join.v2club.cc/#/register?code=C5EnE7vC)。
 
 ### 复制订阅地址
 
