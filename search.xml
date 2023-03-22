@@ -1295,7 +1295,7 @@ hexo d -g
 <p>一套执行完后会生成默认配置文件 <code>~/.config/clash</code></p>
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">l ~/.config/clash</span><br><span class="line">-rw-r--r-- 1 root root 190K 11月 24 16:38 config.yaml</span><br><span class="line">-rw-r--r-- 1 root root 5.7M 11月 24 16:02 Country.mmdb</span><br></pre></td></tr></table></figure>
 
-<h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p>我是用的是 <a href="https://join.v2fly.club/#/register?code=C5EnE7vC">V2Club</a>。</p>
+<h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p>我是用的是 <a href="https://join.v2club.cc/#/register?code=C5EnE7vC">V2Club</a>。</p>
 <h3 id="复制订阅地址"><a href="#复制订阅地址" class="headerlink" title="复制订阅地址"></a>复制订阅地址</h3><p><img data-src="http://blogimg.jakeyu.top/centos-%E4%BD%BF%E7%94%A8-Clash-%E6%A2%AF%E5%AD%90/iShot2021-11-27%2023.29.16.png"></p>
 <p>这个配置我们不能直接使用，需要使用 <a href="https://acl4ssr-sub.github.io/">https://acl4ssr-sub.github.io/</a> 服务生成订阅地址，然后打开订阅地址就可以看到明文配置。</p>
 <p>使用这份配置覆盖 <code>~/.config/clash/config.yaml</code>。</p>
@@ -1387,7 +1387,7 @@ hexo d -g
     <content><![CDATA[<p><img data-src="//blogimg.jakeyu.top/shadowsocks.png"></p>
 <span id="more"></span>
 
-<div class="note danger"><p>梯子服务商推荐 <a href="https://join.v2fly.club/#/register?code=C5EnE7vC">V2Club</a>，支持全平台，安全、稳定。</p>
+<div class="note danger"><p>梯子服务商推荐 <a href="https://join.v2club.cc/#/register?code=C5EnE7vC">V2Club</a>，支持全平台，安全、稳定。</p>
 </div>
 
 <h2 id="socks5-全局代理"><a href="#socks5-全局代理" class="headerlink" title="socks5 全局代理"></a>socks5 全局代理</h2><h3 id="安装-sslocal"><a href="#安装-sslocal" class="headerlink" title="安装 sslocal"></a>安装 sslocal</h3><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">pip install shadowsocks <span class="comment"># pip安装ss客户端</span></span><br><span class="line">如果提示 -bash: pip: <span class="built_in">command</span> not found</span><br><span class="line">运行 yum -y install python-pip</span><br></pre></td></tr></table></figure>

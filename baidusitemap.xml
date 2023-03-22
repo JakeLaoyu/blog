@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://i.jakeyu.top/2022/12/09/%E6%B3%A8%E5%86%8CChatGPT%E8%AF%A6%E7%BB%86%E6%8C%87%E5%8D%97/</loc>
+    <lastmod>2023-03-22</lastmod>
+  </url>
+  <url>
     <loc>https://i.jakeyu.top/2018/11/13/%E6%B5%85%E8%B0%88-instanceof-%E5%92%8C-typeof-%E7%9A%84%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86/</loc>
     <lastmod>2023-03-22</lastmod>
   </url>
@@ -42,6 +46,18 @@
   </url>
   <url>
     <loc>https://i.jakeyu.top/2020/09/20/%E8%B7%A8%E5%9F%9F%E5%90%8D%E5%AD%98%E5%8F%96localStorage/</loc>
+    <lastmod>2023-03-22</lastmod>
+  </url>
+  <url>
+    <loc>https://i.jakeyu.top/2016/10/17/centos+nodejs+nginx+mysql%E6%90%AD%E5%BB%BA%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
+    <lastmod>2023-03-22</lastmod>
+  </url>
+  <url>
+    <loc>https://i.jakeyu.top/2021/11/27/centos-%E4%BD%BF%E7%94%A8-Clash-%E6%A2%AF%E5%AD%90/</loc>
+    <lastmod>2023-03-22</lastmod>
+  </url>
+  <url>
+    <loc>https://i.jakeyu.top/2017/02/27/centos7%E4%B8%ADfirewall%E9%98%B2%E7%81%AB%E5%A2%99%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</loc>
     <lastmod>2023-03-22</lastmod>
   </url>
   <url>
@@ -261,10 +277,6 @@
     <lastmod>2023-03-22</lastmod>
   </url>
   <url>
-    <loc>https://i.jakeyu.top/2022/12/09/%E6%B3%A8%E5%86%8CChatGPT%E8%AF%A6%E7%BB%86%E6%8C%87%E5%8D%97/</loc>
-    <lastmod>2023-03-22</lastmod>
-  </url>
-  <url>
     <loc>https://i.jakeyu.top/2016/10/27/6%E4%B8%AA%E5%AD%97%E7%AC%A6%E7%9A%84JavaScript%E4%B9%8B%E6%97%85/</loc>
     <lastmod>2023-03-22</lastmod>
   </url>
@@ -334,18 +346,6 @@
   </url>
   <url>
     <loc>https://i.jakeyu.top/2017/09/18/canvas%E5%A4%9A%E6%8C%87/</loc>
-    <lastmod>2023-03-22</lastmod>
-  </url>
-  <url>
-    <loc>https://i.jakeyu.top/2016/10/17/centos+nodejs+nginx+mysql%E6%90%AD%E5%BB%BA%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
-    <lastmod>2023-03-22</lastmod>
-  </url>
-  <url>
-    <loc>https://i.jakeyu.top/2021/11/27/centos-%E4%BD%BF%E7%94%A8-Clash-%E6%A2%AF%E5%AD%90/</loc>
-    <lastmod>2023-03-22</lastmod>
-  </url>
-  <url>
-    <loc>https://i.jakeyu.top/2017/02/27/centos7%E4%B8%ADfirewall%E9%98%B2%E7%81%AB%E5%A2%99%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</loc>
     <lastmod>2023-03-22</lastmod>
   </url>
 </urlset> 
