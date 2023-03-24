@@ -112,3 +112,10 @@ alias ssoff='unset http_proxy && unset https_proxy && systemctl stop privoxy && 
 	sson
 	## 关闭ss代理
 	ssoff
+
+## 推荐
+
+{% linkgrid %}
+订阅 ChatGPT Plus | https://i.jakeyu.top/2023/03/21/%E4%BD%BF%E7%94%A8%20Depay%20%E5%92%8C%E6%AC%A7%E6%98%93%20(OKX)%20%E8%AE%A2%E9%98%85%20ChatGPT%20Plus | 使用 Depay 和欧易 (OKX) 订阅 ChatGPT Plus | https://blogimg.jakeyu.top/%E5%85%85%E5%80%BC-chatgpt/ChatGPT-preview.jpg
+注册ChatGPT | https://i.jakeyu.top/2022/12/09/%E6%B3%A8%E5%86%8CChatGPT%E8%AF%A6%E7%BB%86%E6%8C%87%E5%8D%97 | 注册ChatGPT | https://blogimg.jakeyu.top/%E6%B3%A8%E5%86%8CChatGPT%E8%AF%A6%E7%BB%86%E6%8C%87%E5%8D%97/cbsn-fusion-promise-fear-of-artificial-intelligence-bot-chatgpt-thumbnail-1528537-640x360.jpeg
+{% endlinkgrid %}
