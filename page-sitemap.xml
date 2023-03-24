@@ -11,34 +11,7 @@
     
     <url>
         <loc>https://i.jakeyu.top/tags/</loc>
-        <lastmod>2023-03-22T09:31:14.806Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    
-    
-    <url>
-        <loc>https://i.jakeyu.top/about/</loc>
-        <lastmod>2023-03-22T09:31:14.794Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    
-    
-    <url>
-        <loc>https://i.jakeyu.top/article-recommended/</loc>
-        <lastmod>2023-03-22T09:31:14.794Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    
-    
-    <url>
-        <loc>https://i.jakeyu.top/categories/</loc>
-        <lastmod>2023-03-22T09:31:14.794Z</lastmod>
+        <lastmod>2023-03-24T04:47:30.488Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -47,7 +20,34 @@
     
     <url>
         <loc>https://i.jakeyu.top/demo/CSS3%25E8%2587%25AA%25E5%25AE%259A%25E4%25B9%2589%25E6%25BB%259A%25E5%258A%25A8%25E6%259D%25A1%25E6%25A0%25B7%25E5%25BC%258F.html</loc>
-        <lastmod>2023-03-22T09:31:14.794Z</lastmod>
+        <lastmod>2023-03-24T04:47:30.476Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    
+    
+    <url>
+        <loc>https://i.jakeyu.top/about/</loc>
+        <lastmod>2023-03-24T04:47:30.472Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    
+    
+    <url>
+        <loc>https://i.jakeyu.top/article-recommended/</loc>
+        <lastmod>2023-03-24T04:47:30.472Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    
+    
+    <url>
+        <loc>https://i.jakeyu.top/categories/</loc>
+        <lastmod>2023-03-24T04:47:30.472Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -56,7 +56,7 @@
     
     <url>
         <loc>https://i.jakeyu.top/404.html</loc>
-        <lastmod>2023-03-22T09:31:14.786Z</lastmod>
+        <lastmod>2023-03-24T04:47:30.468Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
