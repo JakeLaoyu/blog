@@ -15,11 +15,9 @@ permalink:
 
 ![](//blogimg.jakeyu.top/使用-github-action-自动部署博客和同步备份/44036562.png)
 
-<!--more-->
-
-## 前言
-
 使用 github action 自动化可以让我们发布博客更加简单，只需要把代码提交到 github 仓库即可。
+
+<!--more-->
 
 ## 准备
 
