@@ -1,9 +1,9 @@
 ---
 title: 注册ChatGPT详细指南
 categories:
-  - 工具
+  - ChatGPT
 tags:
-  - 工具
+  - ChatGPT
 author: Jake
 date: 2022-12-09 13:46:15
 description:
