@@ -15,11 +15,11 @@ permalink:
 
 ![](//blogimg.jakeyu.top/%E6%B3%A8%E5%86%8CChatGPT%E8%AF%A6%E7%BB%86%E6%8C%87%E5%8D%97/cbsn-fusion-promise-fear-of-artificial-intelligence-bot-chatgpt-thumbnail-1528537-640x360.jpeg)
 
-<!--more-->
-
 最近ChatGPT真受欢迎，但是有些人注册时会经常面临不服务它们的地区问题，现在我们给你详细问题解决。
 
-作者 [twitter](https://twitter.com/BoxMrChen)
+<!--more-->
+
+> 作者 [twitter](https://twitter.com/BoxMrChen)
 
 # 准备
 
