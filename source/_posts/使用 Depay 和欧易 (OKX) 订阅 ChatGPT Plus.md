@@ -65,4 +65,4 @@ Depay 是一个虚拟信用卡服务提供商，可以将 USDT 转换为美元�
 从本方法中损失的资金包括：1 USDT（给 OKX 的手续费）+ 1.35％ Depay 充值手续费 + USDT 转换为美元所需的费用。
 
 ## 订阅 ChatGPT Plus
-为了订阅ChatGPT Plus，需要在全局代理下使用手机浏览器打开 [https://chat.openai.com](https://chat.openai.com)，并输入 Depay 虚拟信用卡信息。如果需要，可以使用美国地址生成器替代您的地址。
+为了订阅ChatGPT Plus，需要在全局代理下使用浏览器打开 [https://chat.openai.com](https://chat.openai.com)，并输入 Depay 虚拟信用卡信息。如果需要，可以使用美国地址生成器替代您的地址。
