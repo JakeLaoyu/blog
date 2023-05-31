@@ -7,7 +7,7 @@ tags:
 author: Jake
 date: 2023-05-29 15:20:27
 description:
-keywords: ChatGPT镜像网站，免翻无需注册、打开即可体验，国内可用的 ChatGPT 替代，ChatGPT，ChatGPT4.0、人工智能GPT、GPT智能、GPT智能聊天机器人、ai写作、chatgpt写作、chatgpt创作、GPT智聊、聊天AI、ai创作、GPT聊天、GPT问答、Open AI、AI问答、AI绘画、论文
+keywords: ChatGPT镜像网站，GPTTalk，免翻无需注册、打开即可体验，国内可用的 ChatGPT 替代，ChatGPT，ChatGPT4.0、人工智能GPT、GPT智能、GPT智能聊天机器人、ai写作、chatgpt写作、chatgpt创作、GPT智聊、聊天AI、ai创作、GPT聊天、GPT问答、Open AI、AI问答、AI绘画、论文
 comments:
 original:
 permalink:
