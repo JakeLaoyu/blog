@@ -63,8 +63,8 @@ dependencies:
     specifier: ^8.17.1
     version: 8.17.1
   hexo-util:
-    specifier: ^3.0.1
-    version: 3.0.1
+    specifier: ^3.1.0
+    version: 3.1.0
   hexo-word-counter:
     specifier: ^0.1.0
     version: 0.1.0
@@ -2268,7 +2268,7 @@ packages:
     engines: {node: '>=14'}
     dependencies:
       dompurify: 3.0.3
-      hexo-util: 3.0.1
+      hexo-util: 3.1.0
       jsdom: 20.0.3
       marked: 4.3.0
     transitivePeerDependencies:
@@ -2333,20 +2333,6 @@ packages:
       deepmerge: 4.3.0
       highlight.js: 11.7.0
       htmlparser2: 7.2.0
-      prismjs: 1.29.0
-      strip-indent: 3.0.0
-    dev: false
-
-  /hexo-util@3.0.1:
-    resolution: {integrity: sha512-ri3WsEUWSfrjydYPeOaWvrYIzfVBiaXUy0846051MkuJxBcNtG2o87q0KFGiniSMmi0XxLQhSl415anU3+FFlA==}
-    engines: {node: '>=14'}
-    dependencies:
-      bluebird: 3.7.2
-      camel-case: 4.1.2
-      cross-spawn: 7.0.3
-      deepmerge: 4.3.0
-      highlight.js: 11.7.0
-      htmlparser2: 8.0.1
       prismjs: 1.29.0
       strip-indent: 3.0.0
     dev: false
