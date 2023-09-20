@@ -74,8 +74,8 @@ dependencies:
 
 devDependencies:
   dayjs:
-    specifier: ^1.11.9
-    version: 1.11.9
+    specifier: ^1.11.10
+    version: 1.11.10
 
 packages:
 
@@ -1048,8 +1048,8 @@ packages:
       whatwg-url: 11.0.0
     dev: false
 
-  /dayjs@1.11.9:
-    resolution: {integrity: sha512-QvzAURSbQ0pKdIye2txOzNaHmxtUBXerpY0FJsFXUMKbIZeFm5ht1LS/jFsrncjnmtv8HsG0W2g6c0zUjZWmpA==}
+  /dayjs@1.11.10:
+    resolution: {integrity: sha512-vjAczensTgRcqDERK0SR2XMwsF/tSvnvlv6VcF2GIhg6Sx4yOIt/irsr1RDJsKiIyBzJDpCoXiWWq28MqH2cnQ==}
     dev: true
 
   /debug@2.6.9:
@@ -2195,7 +2195,7 @@ packages:
     resolution: {integrity: sha512-XGqCaTUr6+X8Ty/YvRi+0eh0DJgHcp+lgBhn+Sgyh6ev40P0cwamwJyaZroTdHt8GPoBwbSGVu0H/CdzEf0lFA==}
     dependencies:
       hexo-util: 3.1.0
-      keyword-extractor: 0.0.25
+      keyword-extractor: 0.0.27
       moment: 2.29.4
     dev: false
 
@@ -3043,8 +3043,8 @@ packages:
       json-buffer: 3.0.0
     dev: false
 
-  /keyword-extractor@0.0.25:
-    resolution: {integrity: sha512-OpsjHSrHMheOEm/K5FQhkXV2wALqFemeI+yub/k2K5suhmodw7wM0RhuHHkvOKJp6m+LdKp5sVKFYf6ZtSFhrA==}
+  /keyword-extractor@0.0.27:
+    resolution: {integrity: sha512-xb5MIKz+vbtsEhUWi25jACtedcrcHEXGewlrQ4Sk5uzntEMXQ3npqo0rRiPLa1jYxFrCq+XVzrgd3TUELjDfaQ==}
     engines: {node: '>= 0.10.0'}
     dev: false
 
