@@ -1,7 +1,7 @@
 # build front-end
 FROM node:lts-alpine AS builder
 
-RUN apk add libtool automake autoconf nasm
+RUN apk add libtool automake autoconf nasm zlib
 RUN npm install pnpm@8 -g
 
 COPY . /blog
