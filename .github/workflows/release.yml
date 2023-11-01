@@ -3,7 +3,8 @@ name: release
 on:
   push:
     branches: 
-      - 'master'
+      - master
+      - feat/docker-deploy
 
 jobs:
   build:
