@@ -34,6 +34,6 @@ jobs:
           file: ./Dockerfile
           platforms: linux/amd64
           push: true
-          tags: registry.cn-hongkong.aliyuncs.com/catalyst_clan/gpttalk-web-hk:${{ github.sha }}
+          tags: registry.cn-hongkong.aliyuncs.com/jakee/blog-hk:${{ github.sha }}
           cache-from: type=local,src=/tmp/.buildx-cache
           cache-to: type=local,dest=/tmp/.buildx-cache
