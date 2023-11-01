@@ -19,6 +19,10 @@ jobs:
         uses: docker/setup-buildx-action@v2
         with:
           install: true
+      
+      - name: Get the latest commit SHA
+        id: commit_sha
+        run: echo "::set-output name=SHA_SHORT::$(echo $GITHUB_SHA | cut -c 1-7)"
 
       - name: Login to Docker Hub
         uses: docker/login-action@v2
@@ -34,6 +38,7 @@ jobs:
           file: ./Dockerfile
           platforms: linux/amd64
           push: true
-          tags: registry.cn-hongkong.aliyuncs.com/jakee/blog-hk:${{ github.sha }}
+          # 截取 sha 前七位
+          tags: registry.cn-hongkong.aliyuncs.com/jakee/blog-hk:${{ steps.commit_sha.outputs.SHA_SHORT }}
           cache-from: type=local,src=/tmp/.buildx-cache
           cache-to: type=local,dest=/tmp/.buildx-cache
