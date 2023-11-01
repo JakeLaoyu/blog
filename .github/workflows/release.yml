@@ -38,6 +38,6 @@ jobs:
           platforms: linux/amd64
           push: true
           # 截取 sha 前七位
-          tags: registry.cn-hongkong.aliyuncs.com/jakee/blog-hk:${{ steps.commit_sha.outputs.SHA_SHORT }}
+          tags: registry.cn-hongkong.aliyuncs.com/jakee/blog-hk:${{ steps.commit_sha.outputs.SHA_SHORT }},registry.cn-hongkong.aliyuncs.com/jakee/blog-hk:latest
           cache-from: type=local,src=/tmp/.buildx-cache
           cache-to: type=local,dest=/tmp/.buildx-cache
