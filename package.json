@@ -13,7 +13,7 @@
     "backup": "node ./script/backup.js"
   },
   "hexo": {
-    "version": "6.3.0"
+    "version": "7.0.0"
   },
   "dependencies": {
     "css": "^3.0.0",
