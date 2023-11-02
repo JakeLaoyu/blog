@@ -7,7 +7,7 @@ tags:
 author: Jake
 date: 2023-11-02 17:35:39
 description:
-keywords: nginx, proxy, proxy_pass, cloudflare, worker, 403, 421, 502
+keywords: nginx, proxy, proxy_pass, cloudflare, worker, 403, 421, 502, 1panel, OpenResty
 comments:
 original:
 permalink:
