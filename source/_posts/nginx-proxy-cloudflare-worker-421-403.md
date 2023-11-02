@@ -3,7 +3,7 @@ title: nginx proxy cloudflare worker 421/403
 categories:
   - 服务器
 tags:
-  - JS
+  - 服务器
 author: Jake
 date: 2023-11-02 17:35:39
 description:
