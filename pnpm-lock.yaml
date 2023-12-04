@@ -60,8 +60,8 @@ dependencies:
     specifier: ^0.0.3
     version: 0.0.3
   hexo-theme-next:
-    specifier: ^8.18.2
-    version: 8.18.2
+    specifier: ^8.19.0
+    version: 8.19.0
   hexo-util:
     specifier: ^3.0.1
     version: 3.0.1
@@ -2185,7 +2185,7 @@ packages:
     resolution: {integrity: sha512-XGqCaTUr6+X8Ty/YvRi+0eh0DJgHcp+lgBhn+Sgyh6ev40P0cwamwJyaZroTdHt8GPoBwbSGVu0H/CdzEf0lFA==}
     dependencies:
       hexo-util: 3.1.0
-      keyword-extractor: 0.0.27
+      keyword-extractor: 0.0.28
       moment: 2.29.4
     dev: false
 
@@ -2301,8 +2301,8 @@ packages:
     resolution: {integrity: sha512-b0Di+TUVs4ESrNX4ULEh9uQmADpO6kr10rIJ2OGZM8suNQNFKdxn+vJUjnLfKkCPJAfVmS7/S83KCNYe4tpoNw==}
     dev: false
 
-  /hexo-theme-next@8.18.2:
-    resolution: {integrity: sha512-gGxi29yKwaWF3lfSLYPrt3UwOWuBIcawjTWgt5z5f06RmBCc41kfAQWBkRnllSrHJeewk+tOku989kKAtfQwpA==}
+  /hexo-theme-next@8.19.0:
+    resolution: {integrity: sha512-FLslD/Eib8XALRF+W2bDgL32gU2r6rvsfrg8VS7T7BInOMdrikelNSM1wuDy8N6ec98ac2BGhoMJCBoBxny+hw==}
     dev: false
 
   /hexo-util@0.6.3:
@@ -3026,8 +3026,8 @@ packages:
       json-buffer: 3.0.0
     dev: false
 
-  /keyword-extractor@0.0.27:
-    resolution: {integrity: sha512-xb5MIKz+vbtsEhUWi25jACtedcrcHEXGewlrQ4Sk5uzntEMXQ3npqo0rRiPLa1jYxFrCq+XVzrgd3TUELjDfaQ==}
+  /keyword-extractor@0.0.28:
+    resolution: {integrity: sha512-oi7dSPpYtW/3fE0vZiqQgZ8mW3F1V9K4+rBJ0FcVrdXBEQuhZ0zKj7sX74eqGASuepLHf9aYdeonyKHWhYpHQA==}
     engines: {node: '>= 0.10.0'}
     dev: false
 
