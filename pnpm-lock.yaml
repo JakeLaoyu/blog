@@ -63,8 +63,8 @@ dependencies:
     specifier: ^8.19.1
     version: 8.19.1
   hexo-util:
-    specifier: ^3.0.1
-    version: 3.0.1
+    specifier: ^3.2.0
+    version: 3.2.0
   hexo-word-counter:
     specifier: ^0.1.0
     version: 0.1.0
@@ -2265,7 +2265,7 @@ packages:
     engines: {node: '>=14'}
     dependencies:
       dompurify: 3.0.5
-      hexo-util: 3.0.1
+      hexo-util: 3.2.0
       jsdom: 20.0.3
       marked: 4.3.0
     transitivePeerDependencies:
@@ -2334,22 +2334,8 @@ packages:
       strip-indent: 3.0.0
     dev: false
 
-  /hexo-util@3.0.1:
-    resolution: {integrity: sha512-ri3WsEUWSfrjydYPeOaWvrYIzfVBiaXUy0846051MkuJxBcNtG2o87q0KFGiniSMmi0XxLQhSl415anU3+FFlA==}
-    engines: {node: '>=14'}
-    dependencies:
-      bluebird: 3.7.2
-      camel-case: 4.1.2
-      cross-spawn: 7.0.3
-      deepmerge: 4.3.1
-      highlight.js: 11.8.0
-      htmlparser2: 8.0.2
-      prismjs: 1.29.0
-      strip-indent: 3.0.0
-    dev: false
-
-  /hexo-util@3.1.0:
-    resolution: {integrity: sha512-LmztAhkJHQ59VHqz6AnvwEKiNA0pCBBI0qW08cCzjhnpGoqZ8tlGDwElzy7oTxCvMChkiqg5V8VflhdI8tHsGg==}
+  /hexo-util@3.2.0:
+    resolution: {integrity: sha512-iM2eS8P88IUpcgiU2szx584bwhXzjzLLqED6WwDk55wYQZrQh/sni/UJwmoW4pxpgubbISIUPXr4LjwPyJuYzA==}
     engines: {node: '>=14'}
     requiresBuild: true
     dependencies:
@@ -2434,7 +2420,7 @@ packages:
       hexo-fs: 4.1.1
       hexo-i18n: 2.0.0
       hexo-log: 4.1.0
-      hexo-util: 3.1.0
+      hexo-util: 3.2.0
       js-yaml: 4.1.0
       js-yaml-js-types: 1.0.1(js-yaml@4.1.0)
       micromatch: 4.0.5
