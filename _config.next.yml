@@ -682,7 +682,7 @@ disqus:
 # DisqusJS
 # For more information: https://disqusjs.skk.moe
 disqusjs:
-  enable: true
+  enable: false
   # API Endpoint of Disqus API (https://disqus.com/api/docs/).
   # Leave api empty if you are able to connect to Disqus API. Otherwise you need a reverse proxy for it.
   # For example:
@@ -724,8 +724,8 @@ gitalk:
 # Utterances
 # For more information: https://utteranc.es
 utterances:
-  enable: false
-  repo: user-name/repo-name # Github repository owner and name
+  enable: true
+  repo: JakeLaoyu/blog # Github repository owner and name
   # Available values: pathname | url | title | og:title
   issue_term: pathname
   # Available values: github-light | github-dark | preferred-color-scheme | github-dark-orange | icy-dark | dark-blue | photon-dark | boxy-light
