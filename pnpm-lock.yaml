@@ -2052,7 +2052,7 @@ packages:
     deprecated: Please see https://github.com/hexojs/hexo-bunyan/issues/17
     hasBin: true
     optionalDependencies:
-      moment: 2.29.4
+      moment: 2.30.1
       mv: 2.1.1
       safe-json-stringify: 1.2.0
     dev: false
@@ -2188,7 +2188,7 @@ packages:
   /hexo-generator-json-content@4.2.3:
     resolution: {integrity: sha512-XGqCaTUr6+X8Ty/YvRi+0eh0DJgHcp+lgBhn+Sgyh6ev40P0cwamwJyaZroTdHt8GPoBwbSGVu0H/CdzEf0lFA==}
     dependencies:
-      hexo-util: 3.2.0
+      hexo-util: 3.3.0
       keyword-extractor: 0.0.28
       moment: 2.30.1
     dev: false
@@ -2348,6 +2348,20 @@ packages:
       strip-indent: 3.0.0
     dev: false
 
+  /hexo-util@3.3.0:
+    resolution: {integrity: sha512-YvGngXijE2muEh5L/VI4Fmjqb+/yAkmY+VuyhWVoRwQu1X7bmWodsfYRXX7CUYhi5LqsvH8FAe/yBW1+f6ZX4Q==}
+    engines: {node: '>=14'}
+    requiresBuild: true
+    dependencies:
+      camel-case: 4.1.2
+      cross-spawn: 7.0.3
+      deepmerge: 4.3.1
+      highlight.js: 11.8.0
+      htmlparser2: 9.0.0
+      prismjs: 1.29.0
+      strip-indent: 3.0.0
+    dev: false
+
   /hexo-word-counter@0.1.0:
     resolution: {integrity: sha512-6HXSL2dlPuekSqWV7DevrUjGF0JgiHKGqkKSfay00JF9GmshJCLDK+AjvVrN0J1WgCbavsUGSwukyZgfW8VdSw==}
     requiresBuild: true
@@ -2375,7 +2389,7 @@ packages:
       js-yaml: 3.14.1
       lodash: 4.17.21
       minimatch: 3.1.2
-      moment: 2.29.4
+      moment: 2.30.1
       moment-timezone: 0.5.43
       nunjucks: 3.2.4
       pretty-hrtime: 1.0.3
@@ -2988,7 +3002,7 @@ packages:
       whatwg-encoding: 2.0.0
       whatwg-mimetype: 3.0.0
       whatwg-url: 11.0.0
-      ws: 8.13.0
+      ws: 8.17.1
       xml-name-validator: 4.0.0
     transitivePeerDependencies:
       - bufferutil
@@ -5009,8 +5023,8 @@ packages:
     resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
     dev: false
 
-  /ws@8.13.0:
-    resolution: {integrity: sha512-x9vcZYTrFPC7aSIbj7sRCYo7L/Xb8Iy+pW0ng0wt2vCJv7M9HOMy0UoN3rr+IFC7hb7vXoqS+P9ktyLLLhO+LA==}
+  /ws@8.17.1:
+    resolution: {integrity: sha512-6XQFvXTkbfUOZOKKILFG1PDK2NDQs4azKQl26T0YS5CxqWLgXajbPZ+h4gZekJyRqFU8pvnbAbbs/3TgRPy+GQ==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       bufferutil: ^4.0.1
