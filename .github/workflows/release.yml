@@ -23,6 +23,7 @@ jobs:
         with:
           node-version: "18.x"
           cache: 'pnpm'
+          
       - name: Install hexo dependencies && Generate files
         run: pnpm install && pnpm run build
       - name: Install coscmd
