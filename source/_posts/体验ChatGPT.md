@@ -13,7 +13,7 @@ original:
 permalink:
 ---
 
-![](https://blogimg.jakeyu.top/%E5%85%85%E5%80%BC-chatgpt/ChatGPT-preview.jpg)
+![](/images/ChatGPT-preview.jpg)
 
 <!--more-->
 
