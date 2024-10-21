@@ -13,7 +13,7 @@ original:
 permalink:
 ---
 
-![](//blogimg.jakeyu.top/跨域名读取localStorage/de1cd54ffb.png)
+![](/images/跨域名读取localStorage/de1cd54ffb.png)
 
 <!--more-->
 
@@ -29,7 +29,7 @@ permalink:
 
 缺点是 `postMessage`  是基于回调的，所以所有 api 都是异步的。不过我们有 `promise`，可以让使用方式优雅一些。
 
-![](//blogimg.jakeyu.top/跨域名读取localStorage/图像2020-10-5.jpeg)
+![](/images/跨域名读取localStorage/图像2020-10-5.jpeg)
 
 # 实现
 ## 父级页面

@@ -15,7 +15,7 @@ permalink:
 
 经常迁移博客是件头疼的事，每次都要折腾一堆文件，所以折腾了一下，使用docker部署博客。
 
-![](//blogimg.jakeyu.top/使用docker部署Hexo博客/vertical-logo-monochromatic-1.png)
+![](/images/使用docker部署Hexo博客/vertical-logo-monochromatic-1.png)
 
 <!--more-->
 

@@ -13,7 +13,7 @@ original:
 permalink:
 ---
 
-![](//blogimg.jakeyu.top/浅谈-instanceof-和-typeof-的实现原理/images.png)
+![](/images/浅谈-instanceof-和-typeof-的实现原理/images.png)
 
 <!--more-->
 
@@ -140,7 +140,7 @@ Foo instanceof Function // true
 
 关于原型继承的原理，我简单用一张图来表示
 
-![](//blogimg.jakeyu.top/浅谈-instanceof-和-typeof-的实现原理/e46508fbcd140db304232aba89f41c83_articlex.jpeg)
+![](/images/浅谈-instanceof-和-typeof-的实现原理/e46508fbcd140db304232aba89f41c83_articlex.jpeg)
 
 我们知道每个 JavaScript 对象均有一个隐式的 `__proto__` 原型属性，而显式的原型属性是 `prototype`，只有 `Object.prototype.__proto__` 属性在未修改的情况下为 null 值。根据图上的原理，我们来梳理上面提到的几个有趣的 `instanceof` 使用的例子。
 

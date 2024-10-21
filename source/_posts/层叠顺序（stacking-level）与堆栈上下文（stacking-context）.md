@@ -65,7 +65,7 @@ permalink:
 
 这里其实是涉及了所谓的层叠水平（stacking level)，有一张图可以很好的诠释：
 
-![](//blogimg.jakeyu.top/层叠顺序（stacking-level）与堆栈上下文（stacking-context）/687474703a2f2f696d616765732e636e626c6f67732e636f6d2f636e626c6f67735f636f6d2f636f636f31732f3838313631342f6f5f737461636b696e676c6576656c2e706e67.png)
+![](/images/层叠顺序（stacking-level）与堆栈上下文（stacking-context）/687474703a2f2f696d616765732e636e626c6f67732e636f6d2f636e626c6f67735f636f6d2f636f636f31732f3838313631342f6f5f737461636b696e676c6576656c2e706e67.png)
 
 运用上图的逻辑，上面的题目就迎刃而解，`inline-blcok` 的 `stacking level` 比之 `float` 要高，所以无论 DOM 的先后顺序都堆叠在上面。
 

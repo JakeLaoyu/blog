@@ -13,7 +13,7 @@ original:
 permalink:
 ---
 
-![](//blogimg.jakeyu.top/充值-chatgpt/ChatGPT-preview.jpg)
+![](/images/充值-chatgpt/ChatGPT-preview.jpg)
 
 对于国内用户充值 ChatGPT Plus 比较困难，实测下面这个方法可以成功充值。
 

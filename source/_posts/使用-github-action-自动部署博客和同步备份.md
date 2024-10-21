@@ -13,7 +13,7 @@ original:
 permalink:
 ---
 
-![](//blogimg.jakeyu.top/使用-github-action-自动部署博客和同步备份/44036562.png)
+![](/images/使用-github-action-自动部署博客和同步备份/44036562.png)
 
 使用 github action 自动化可以让我们发布博客更加简单，只需要把代码提交到 github 仓库即可。
 
@@ -70,7 +70,7 @@ jobs:
 
 添加 SSH Private Key 到 `github repo -> settings -> Secrets and variables -> Actions`。
 
-![](//blogimg.jakeyu.top/使用-github-action-自动部署博客和同步备份/SCR-20230204-mh.png)
+![](/images/使用-github-action-自动部署博客和同步备份/SCR-20230204-mh.png)
 
 ### action 配置
 
@@ -94,7 +94,7 @@ deploy-to-server:
 
 ## 效果
 
-![](//blogimg.jakeyu.top/使用-github-action-自动部署博客和同步备份/SCR-20230204-s2.png)
+![](/images/使用-github-action-自动部署博客和同步备份/SCR-20230204-s2.png)
 
 ## 同步至 gitee 等
 
