@@ -59,7 +59,7 @@ noDate: "true"
 ***
 
 <div class="pic">
-<img src="https://blogimg.jakeyu.top/404/c0e5bff6974446bb9cd5bec040393a03.gif">
+<img src="/images/404/c0e5bff6974446bb9cd5bec040393a03.gif">
 </div>
 
 <p class="center">很抱歉，您所访问的地址并不存在: </p>
