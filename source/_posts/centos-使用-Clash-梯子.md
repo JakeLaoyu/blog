@@ -15,7 +15,7 @@ permalink:
 
 服务器访问 npm、github 等真让人捉急，折腾一下配个 clash。
 
-![](//blogimg.jakeyu.top/centos-使用-Clash-梯子/logo.png)
+![](/images/centos-使用-Clash-梯子/logo.png)
 
 <!--more-->
 
@@ -44,7 +44,7 @@ l ~/.config/clash
 
 ### 复制订阅地址
 
-![](http://blogimg.jakeyu.top/centos-%E4%BD%BF%E7%94%A8-Clash-%E6%A2%AF%E5%AD%90/iShot2021-11-27%2023.29.16.png)
+![](/images/centos-使用-Clash-梯子/iShot2021-11-27%2023.29.16.png)
 
 这个配置我们不能直接使用，需要使用 [https://acl4ssr-sub.github.io/](https://acl4ssr-sub.github.io/) 服务生成订阅地址，然后打开订阅地址就可以看到明文配置。
 
@@ -88,11 +88,11 @@ secret: xxxx
 
 打开官方 [http://clash.razord.top/](http://clash.razord.top/)，在设置中填写相应的端口，secret 配置。配置完成就即可远程管理
 
-![](http://blogimg.jakeyu.top/centos-%E4%BD%BF%E7%94%A8-Clash-%E6%A2%AF%E5%AD%90/iShot2021-11-27%2023.50.06.png)
+![](/images/centos-使用-Clash-梯子/iShot2021-11-27%2023.50.06.png)
 
 ## 推荐
 
 {% linkgrid %}
-临时邮箱 | https://email-once.com/ | 完全基于 CloudFlare 实现的临时邮箱，所有服务和数据均在 CloudFlare 中 | https://blogimg.jakeyu.top/%E4%B8%B4%E6%97%B6%E9%82%AE%E7%AE%B1/banner.png
-开发工具箱 | https://devtool.club/ | 开发者的便利工具 | https://blogimg.jakeyu.top/devtool/unnamed.png
+临时邮箱 | https://email-once.com/ | 完全基于 CloudFlare 实现的临时邮箱，所有服务和数据均在 CloudFlare 中 | /images/临时邮箱/banner.png
+开发工具箱 | https://devtool.club/ | 开发者的便利工具 | /images/devtool/unnamed.png
 {% endlinkgrid %}

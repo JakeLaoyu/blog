@@ -13,7 +13,7 @@ original:
 permalink:
 ---
 
-![](//blogimg.jakeyu.top/%E6%B3%A8%E5%86%8CChatGPT%E8%AF%A6%E7%BB%86%E6%8C%87%E5%8D%97/cbsn-fusion-promise-fear-of-artificial-intelligence-bot-chatgpt-thumbnail-1528537-640x360.jpeg)
+![](/images/注册ChatGPT详细指南/cbsn-fusion-promise-fear-of-artificial-intelligence-bot-chatgpt-thumbnail-1528537-640x360.jpeg)
 
 最近ChatGPT真受欢迎，但是有些人注册时会经常面临不服务它们的地区问题，现在我们给你详细问题解决。
 
@@ -32,15 +32,15 @@ permalink:
 
 打开接码平台 [sms-activate.org](https://sms-activate.org/?ref=2862835)，注册一个账号
 
-![](//blogimg.jakeyu.top/%E6%B3%A8%E5%86%8CChatGPT%E8%AF%A6%E7%BB%86%E6%8C%87%E5%8D%97/pasted%20image%200.png)
+![](/images/注册ChatGPT详细指南/pasted%20image%200.png)
 
 然后要充值余额
 
-![](//blogimg.jakeyu.top/%E6%B3%A8%E5%86%8CChatGPT%E8%AF%A6%E7%BB%86%E6%8C%87%E5%8D%97/image.png)
+![](/images/注册ChatGPT详细指南/image.png)
 
 一次接码OpenAi的验证码费用是大概11卢布，人民币来看差不多是1块钱，不过只能充美金，就先充直个1美金钱。可以选择对你任何方便方式。支付宝也有
 
-![](//blogimg.jakeyu.top/%E6%B3%A8%E5%86%8CChatGPT%E8%AF%A6%E7%BB%86%E6%8C%87%E5%8D%97/image%20(1).png)
+![](/images/注册ChatGPT详细指南/image%20(1).png)
 
 充值完成可能需要等一会，就先放着，直接进行下一步。
 
@@ -48,17 +48,17 @@ permalink:
 
 首先打开[ChatGPT的账户注册页面](https://beta.openai.com/signup)。谷歌注册或者邮箱注册都可以，无所谓，我们这里用邮箱注册作为例子。
 
-![](//blogimg.jakeyu.top/%E6%B3%A8%E5%86%8CChatGPT%E8%AF%A6%E7%BB%86%E6%8C%87%E5%8D%97/Untitled.png)
+![](/images/注册ChatGPT详细指南/Untitled.png)
 
 用邮箱注册后你要验证邮件。进去邮箱，查看email里的链接。
 
-![](//blogimg.jakeyu.top/%E6%B3%A8%E5%86%8CChatGPT%E8%AF%A6%E7%BB%86%E6%8C%87%E5%8D%97/image-2.png)
+![](/images/注册ChatGPT详细指南/image-2.png)
 
 这里你需要输入需要的信息。
 
 当然，有一些人会在这里遇到一个问题，会出现说不能在当前国家服务的提示。
 
-![](//blogimg.jakeyu.top/%E6%B3%A8%E5%86%8CChatGPT%E8%AF%A6%E7%BB%86%E6%8C%87%E5%8D%97/image-3.png)
+![](/images/注册ChatGPT详细指南/image-3.png)
 
 不用怕，这个这文章就帮助你解决这个问题。
 
@@ -86,27 +86,27 @@ javascript:
 
 然后再粘贴我们第一段复制的内容：
 
-![](//blogimg.jakeyu.top/%E6%B3%A8%E5%86%8CChatGPT%E8%AF%A6%E7%BB%86%E6%8C%87%E5%8D%97/Untitled-1.png)
+![](/images/注册ChatGPT详细指南/Untitled-1.png)
 
 然后按下回车键，刷新页面。如果你的代理没问题，就可以看到正常工作的注册页面了。
 
 ## 输入手机号码
 
-![](//blogimg.jakeyu.top/%E6%B3%A8%E5%86%8CChatGPT%E8%AF%A6%E7%BB%86%E6%8C%87%E5%8D%97/Untitled-2.png)
+![](/images/注册ChatGPT详细指南/Untitled-2.png)
 
 这里选的是韩国，这是因为我们使用韩国的代理，但是我们最好选择印度。然后到我们的接码网站上去。在左侧搜索OpenAi，然后点击印度。
 
-![](//blogimg.jakeyu.top/%E6%B3%A8%E5%86%8CChatGPT%E8%AF%A6%E7%BB%86%E6%8C%87%E5%8D%97/sdfdskfjdls.png)
+![](/images/注册ChatGPT详细指南/sdfdskfjdls.png)
 
 点击”小黄车”。
 
-![](//blogimg.jakeyu.top/%E6%B3%A8%E5%86%8CChatGPT%E8%AF%A6%E7%BB%86%E6%8C%87%E5%8D%97/pasted%20image%200-2.png)
+![](/images/注册ChatGPT详细指南/pasted%20image%200-2.png)
 
 然后我们复制这个号码，粘贴过去。然后我们点击发送验证码就完成了。
 
 等一会网站会提示验证码，我们复制粘贴。
 
-![](//blogimg.jakeyu.top/%E6%B3%A8%E5%86%8CChatGPT%E8%AF%A6%E7%BB%86%E6%8C%87%E5%8D%97/image-4.png)
+![](/images/注册ChatGPT详细指南/image-4.png)
 
 这里你要选择你打算如何使用OpenAI。随便选择吧。
 
@@ -114,6 +114,6 @@ javascript:
 
 注册完后，打开[ChatGPT网站](https://chat.openai.com/auth/login)去登陆。
 
-![](//blogimg.jakeyu.top/%E6%B3%A8%E5%86%8CChatGPT%E8%AF%A6%E7%BB%86%E6%8C%87%E5%8D%97/Untitled-5.png)
+![](/images/注册ChatGPT详细指南/Untitled-5.png)
 
 在下面这个地方就可以开始写你的任何巧妙的句子了。取乐吧！

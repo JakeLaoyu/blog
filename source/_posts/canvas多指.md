@@ -13,7 +13,7 @@ permalink:
 ---
 
 
-![](//blogimg.jakeyu.top/2017091815057255674792.png)
+![](/images/2017091815057255674792.png)
 <!--more-->
 
 

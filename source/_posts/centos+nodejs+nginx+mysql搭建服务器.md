@@ -14,7 +14,7 @@ permalink:
 ---
 最近项目要求，需要一台服务器，阿里和腾讯都不错，我选择了腾讯云，系统为CentOS 7（linux）。记录搭建服务器的过程，方便以后再次搭建是借鉴和给第一次搭建服务器的朋友借鉴之用。
 
-![](//blogimg.jakeyu.top/20170327149054583559344.png)
+![](/images/20170327149054583559344.png)
 
 <!--more-->
 
@@ -111,11 +111,11 @@ npm start
 cat package.json
 ```
 
-![](//blogimg.jakeyu.top//nodejs+MySQL%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA/%E6%88%AA%E5%9B%BE%202016-10-17.jpg)
+![](/images/nodejs+MySQL服务器搭建/%E6%88%AA%E5%9B%BE%202016-10-17.jpg)
 
 第四条命令就相当于执行了`node ./bin/www`。
 
-![](//blogimg.jakeyu.top//nodejs+MySQL%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA/QQ20161017-1.png)
+![](/images/nodejs+MySQL服务器搭建/QQ20161017-1.png)
 
 这样就运行成功了。
 但是当我们关闭终端之后，进程就将结束，现在刚安装的`forever`就派上用场了,`forever`可以让进程在终端关闭之后继续运行：
@@ -130,7 +130,7 @@ forever start ./bin/www
 forever list
 ```
 
-![](//blogimg.jakeyu.top//nodejs+MySQL%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA/QQ20161017-2.png)
+![](/images/nodejs+MySQL服务器搭建/QQ20161017-2.png)
 
 现在我们就可以在浏览器中输入：公网IP + :3000，来访问我们的程序。
 如果要修改`3000`端口，我们可以修改`./bin/www`文件中关于监听3000端口的字段。
@@ -234,7 +234,7 @@ server {
 nginx -t
 ```
 
-![](//blogimg.jakeyu.top//nodejs+MySQL%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA/QQ20161017-0.png)
+![](/images/nodejs+MySQL服务器搭建/QQ20161017-0.png)
 
 这样就是配置成功
 ## 重启nginx
@@ -252,7 +252,7 @@ service nginx restart
 yum list | grep mysql
 ```
 
-![](//blogimg.jakeyu.top//nodejs+MySQL%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA/QQ20161014-0.png)
+![](/images/nodejs+MySQL服务器搭建/QQ20161014-0.png)
 
 在centOS 7中不能使用`yum -y install mysql mysql-server mysql-devel`安装，这样会默认安装mysql的分支mariadb。
 > MariaDB数据库管理系统是MySQL的一个分支，主要由开源社区在维护，采用GPL授权许可 MariaDB的
@@ -266,7 +266,7 @@ rpm -Uvh http://dev.mysql.com/get/mysql-community-release-el7-5.noarch.rpm
 yum repolist enabled | grep "mysql.*-community.*"   //查看当前可用资源
 ```
  
-![](//blogimg.jakeyu.top//nodejs+MySQL%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA/QQ20161014-2.png)
+![](/images/nodejs+MySQL服务器搭建/QQ20161014-2.png)
 从上面的列表可以看出， mysql56-community/x86_64 和 MySQL 5.6 Community Server 可以使用。
 
 因此，我们就可以直接用yum方式安装了MySQL5.6版本了。
@@ -348,11 +348,11 @@ flush privileges;	//刷新数据库
 
 > netstat -tunlp
 
-![](//blogimg.jakeyu.top//nodejs+MySQL%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA/QQ20161015-0.png)
+![](/images/nodejs+MySQL服务器搭建/QQ20161015-0.png)
 
 看到3306端口被开启之后，我们就可以使用本地客户端远程访问数据库了
 
-![](//blogimg.jakeyu.top//nodejs+MySQL%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA/%E6%88%AA%E5%9B%BE%202016-10-15%2011%E6%97%B638%E5%88%8609%E7%A7%92.jpg)
+![](/images/nodejs+MySQL服务器搭建/%E6%88%AA%E5%9B%BE%202016-10-15%2011%E6%97%B638%E5%88%8609%E7%A7%92.jpg)
 
 ## 数据库备份与还原
 ### 备份
@@ -369,7 +369,7 @@ mysql -u root -p
 show databases; 
 ```
 
-![](//blogimg.jakeyu.top/20170628149862866369896.jpg)
+![](/images/20170628149862866369896.jpg)
 
 退出数据库进行备份
 

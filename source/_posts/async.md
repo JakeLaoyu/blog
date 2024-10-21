@@ -13,7 +13,7 @@ original:
 permalink:
 ---
 
-![](//blogimg.jakeyu.top/async/async.png)
+![](/images/async/async.png)
 
 <!--more-->
 
