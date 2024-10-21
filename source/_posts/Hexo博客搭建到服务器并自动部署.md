@@ -125,5 +125,5 @@ server
 
 访问刚刚的配置的域名就可以访问自己的网站了
 
-![](//blogimg.jakeyu.top/Hexo%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E5%88%B0%E6%9C%8D%E5%8A%A1%E5%99%A8/m.jpg)
+![](/images/Hexo博客部署到服务器/m.jpg)
 

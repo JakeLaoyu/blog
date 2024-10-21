@@ -12,7 +12,7 @@ original:
 permalink:
 ---
 
-![](//blogimg.jakeyu.top/swiper内容超出纵向滚动/big.jpg)
+![](/images/swiper内容超出纵向滚动/big.jpg)
 
 <!--more-->
 
@@ -128,8 +128,8 @@ CONFIG.fancybox && NexT.utils.wrapImageWithFancyBox();
 
 ```markdown
 <div class="swiper">
-![](//blogimg.jakeyu.top/mac好用的软件整理/Jietu20180604-141733.png)
-![](//blogimg.jakeyu.top/mac好用的软件整理/Jietu20180604-141841.png)
+![](/images/mac好用的软件整理/Jietu20180604-141733.png)
+![](/images/mac好用的软件整理/Jietu20180604-141841.png)
 </div>
 ```
 

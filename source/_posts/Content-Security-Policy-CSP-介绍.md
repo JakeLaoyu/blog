@@ -93,7 +93,7 @@ CSP 通过告诉浏览器一系列规则，严格规定页面中哪些资源允�
 * 服务器添加 `Content-Security-Policy` 响应头来指定规则
 * HTML 中添加 <meta> 标签来指定 `Content-Security-Policy` 规则
 
-![](//blogimg.jakeyu.top/Content-Security-Policy-CSP-介绍/44004494-f3c9bdf2-9e95-11e8-8793-e2966d79ecae.png)
+![](/images/Content-Security-Policy-CSP-介绍/44004494-f3c9bdf2-9e95-11e8-8793-e2966d79ecae.png)
 
 *mobile.twitter.com header 中的 CSP 规则*
 
@@ -126,7 +126,7 @@ python -m SimpleHTTPServer 8000
 
 然后访问 localhost:8000 以观察结果：
 
-![](//blogimg.jakeyu.top/Content-Security-Policy-CSP-介绍/44004498-fdd37004-9e95-11e8-895d-53797ae105c1.png)
+![](/images/Content-Security-Policy-CSP-介绍/44004498-fdd37004-9e95-11e8-895d-53797ae105c1.png)
 
 符合 CSP 规则情况下的正常访问
 
@@ -148,7 +148,7 @@ python -m SimpleHTTPServer 8000
 </html>
 ```
 
-![](//blogimg.jakeyu.top/Content-Security-Policy-CSP-介绍/44004501-0fac3a18-9e96-11e8-98bf-01e77f4a5e6a.png)
+![](/images/Content-Security-Policy-CSP-介绍/44004501-0fac3a18-9e96-11e8-98bf-01e77f4a5e6a.png)
 
 *触发 CSP 规则资源被 block 的情况*
 
@@ -231,7 +231,7 @@ alert(‘来自 test.js 的问候！’)
 
 页面执行结果：
 
-![](//blogimg.jakeyu.top/Content-Security-Policy-CSP-介绍/44004512-262c4df0-9e96-11e8-88e9-df4e08cb98f1.png)
+![](/images/Content-Security-Policy-CSP-介绍/44004512-262c4df0-9e96-11e8-88e9-df4e08cb98f1.png)
 
 *script-src none 时页面将不加载任何脚本*
 
@@ -281,7 +281,7 @@ alert(‘来自 test.js 的问候！’)
 </html>
 ```
 
-![](//blogimg.jakeyu.top/Content-Security-Policy-CSP-介绍/44004521-427e59bc-9e96-11e8-9608-743f4e3bfefe.png)
+![](/images/Content-Security-Policy-CSP-介绍/44004521-427e59bc-9e96-11e8-9608-743f4e3bfefe.png)
 
 *未指定 CSP 的情况*
 
@@ -319,7 +319,7 @@ alert(‘来自 test.js 的问候！’)
 
 配置站点默认只信息同域的资源，但注意，这个设置并不包含内联的情况，所以结果会如下图。
 
-![](//blogimg.jakeyu.top/Content-Security-Policy-CSP-介绍/44004526-54cf1a5c-9e96-11e8-8bca-c980e51a82ae.png)
+![](/images/Content-Security-Policy-CSP-介绍/44004526-54cf1a5c-9e96-11e8-8bca-c980e51a82ae.png)
 
 *内联代码被禁止*
 
@@ -465,7 +465,7 @@ Content-Security-Policy: connect-src http://example.com/;
 </html>
 ```
 
-![](//blogimg.jakeyu.top/Content-Security-Policy-CSP-介绍/44004528-6a4a9f5a-9e96-11e8-88b6-6aee3342ed08.png)
+![](/images/Content-Security-Policy-CSP-介绍/44004528-6a4a9f5a-9e96-11e8-88b6-6aee3342ed08.png)
 
 *重复配置同一指令时效果展示*
 

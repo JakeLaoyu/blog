@@ -10,7 +10,7 @@ original:
 permalink:
 ---
 
-![](//blogimg.jakeyu.top/Mac 彻底删除 Atom/1_JSK29tJmY2hyGS9xDOGkzg.png)
+![](/images/Mac 彻底删除 Atom/1_JSK29tJmY2hyGS9xDOGkzg.png)
 
 <!--more-->
 

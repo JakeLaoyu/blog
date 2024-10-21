@@ -12,7 +12,7 @@ original:
 permalink:
 ---
 
-![](//blogimg.jakeyu.top/redis/redis.jpg)
+![](/images/redis/redis.jpg)
 
 <!--more-->
 
@@ -38,7 +38,7 @@ Redis服务器默认使用6379端口
 
 > ping
 
-![](//blogimg.jakeyu.top/nodejs%E4%BD%BF%E7%94%A8redis/Jietu20170227-102308.jpg)
+![](/images/nodejs使用redis/Jietu20170227-102308.jpg)
 
 ## Nodejs连接redis
 

@@ -14,7 +14,7 @@ original:
 permalink:
 ---
 
-![](//blogimg.jakeyu.top/mongoose/mongoose.jpg)
+![](/images/mongoose/mongoose.jpg)
 
 <!--more-->
 

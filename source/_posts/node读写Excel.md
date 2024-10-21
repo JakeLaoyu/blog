@@ -18,7 +18,7 @@ node 有很多读写excel的模块，这里我只写我所使用的模块。
 * xlsx:读取excel
 * excel-export: 导出excel
 
-![](//blogimg.jakeyu.top/20170618149771883564592.png)
+![](/images/20170618149771883564592.png)
 
 <!--more-->
 

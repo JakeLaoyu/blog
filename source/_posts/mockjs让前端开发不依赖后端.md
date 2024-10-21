@@ -13,7 +13,7 @@ original:
 permalink:
 ---
 
-![](//blogimg.jakeyu.top/20170327149054604067872.png)
+![](/images/20170327149054604067872.png)
 
 mock.js 可以模拟ajax数据，拦截ajax请求，返回模拟数据，无需后端返回就可以测试前端程序
 
@@ -83,7 +83,7 @@ xhr.onreadystatechange = function(){
 </script>
 ~~~
 
-![](//blogimg.jakeyu.top//mockjs%E8%AE%A9%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E7%8B%AC%E7%AB%8B%E4%BA%8E%E5%90%8E%E7%AB%AF/312896762343287.jpg)
+![](/images/mockjs%E8%AE%A9%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E7%8B%AC%E7%AB%8B%E4%BA%8E%E5%90%8E%E7%AB%AF/312896762343287.jpg)
 
 看到没，返回了我们使用mock模拟的数据，这样就可以无需后台，直接进行自己的测试了
 

@@ -12,7 +12,7 @@ original:
 permalink:
 ---
 
-![](//blogimg.jakeyu.top/firewall/firewall%202.jpeg)
+![](/images/firewall/firewall%202.jpeg)
 
 <!--more-->
 

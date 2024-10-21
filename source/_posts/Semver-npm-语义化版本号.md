@@ -13,7 +13,7 @@ original:
 permalink:
 ---
 
-![](//blogimg.jakeyu.top/semver/3649824190-5ad41542bc553_articlex.png)
+![](/images/semver/3649824190-5ad41542bc553_articlex.png)
 
 <!--more-->
 

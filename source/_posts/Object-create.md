@@ -166,7 +166,7 @@ console.log(o)
 
 在chrome控制台打印如下：
 
-![](//blogimg.jakeyu.top/详解Object.create/Jietu20180823-225215@2x.png)
+![](/images/详解Object.create/Jietu20180823-225215@2x.png)
 
 从上图可以看到，新创建的对象继承了`Object`自身的方法，如`hasOwnProperty`、`toString`等，在新对象上可以直接使用。
 
@@ -185,7 +185,7 @@ console.log(o)
 
 在chrome控制台打印如下：
 
-![](//blogimg.jakeyu.top/详解Object.create/Jietu20180823-225402@2x.png)
+![](/images/详解Object.create/Jietu20180823-225402@2x.png)
 
 可以看到，新创建的对象除了自身属性a之外，原型链上没有任何属性，也就是没有继承`Object`的任何东西，此时如果我们调用`o.toString()`会报`Uncaught TypeError`的错误。
 
@@ -204,7 +204,7 @@ console.log(o)
 
 将`null`改为`{}`，结果是怎样的？在chrome控制台打印如下：
 
-![](//blogimg.jakeyu.top/详解Object.create/Jietu20180823-225532@2x.png)
+![](/images/详解Object.create/Jietu20180823-225532@2x.png)
 
 我们看到，这样创建的对象和使用`{}`创建对象已经很相近了，但是还是有一点区别：多了一层`proto`嵌套。
 
@@ -223,7 +223,7 @@ console.log(o)
 
 chrome控制台打印如下：
 
-![](//blogimg.jakeyu.top/详解Object.create/Jietu20180823-225725@2x.png)
+![](/images/详解Object.create/Jietu20180823-225725@2x.png)
 
 这次就和使用`{}`创建的对象一模一样了。至此，我相信大家已经对两者的区别十分清楚了。
 
@@ -237,7 +237,7 @@ chrome控制台打印如下：
 
 在chrome打印如下：
 
-![](//blogimg.jakeyu.top/详解Object.create/Jietu20180823-230002@2x.png)
+![](/images/详解Object.create/Jietu20180823-230002@2x.png)
 
 从上图可以看到，使用`create`创建的对象，没有任何属性，显示`No properties`，我们可以把它当作一个非常纯净的`map`来使用，我们可以自己定义`hasOwnProperty`、`toString`方法，不管是有意还是不小心，我们完全不必担心会将原型链上的同名方法覆盖掉。举个例子：
 

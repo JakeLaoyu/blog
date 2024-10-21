@@ -12,7 +12,7 @@ original:
 permalink:
 ---
 
-![](//blogimg.jakeyu.top/css3实现文字渐变色动画/Untitled.gif)
+![](/images/css3实现文字渐变色动画/Untitled.gif)
 
 <!--more-->
 

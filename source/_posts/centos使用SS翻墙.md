@@ -12,7 +12,7 @@ original:
 permalink:
 ---
 
-![](//blogimg.jakeyu.top/shadowsocks.png)
+![](/images/shadowsocks.png)
 
 <!--more-->
 
@@ -116,6 +116,6 @@ alias ssoff='unset http_proxy && unset https_proxy && systemctl stop privoxy && 
 ## 推荐
 
 {% linkgrid %}
-临时邮箱 | https://email-once.com/ | 完全基于 CloudFlare 实现的临时邮箱，所有服务和数据均在 CloudFlare 中 | https://blogimg.jakeyu.top/%E4%B8%B4%E6%97%B6%E9%82%AE%E7%AE%B1/banner.png
-开发工具箱 | https://devtool.club/ | 开发者的便利工具 | https://blogimg.jakeyu.top/devtool/unnamed.png
+临时邮箱 | https://email-once.com/ | 完全基于 CloudFlare 实现的临时邮箱，所有服务和数据均在 CloudFlare 中 | /images/临时邮箱/banner.png
+开发工具箱 | https://devtool.club/ | 开发者的便利工具 | /images/devtool/unnamed.png
 {% endlinkgrid %}

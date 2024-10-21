@@ -13,7 +13,7 @@ permalink:
 
 ---
 
-![](//blogimg.jakeyu.top/swiper内容超出纵向滚动/big.jpg)
+![](/images/swiper内容超出纵向滚动/big.jpg)
 
 <!-- more -->
 

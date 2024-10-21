@@ -13,7 +13,7 @@ original:
 permalink:
 ---
 
-![](//blogimg.jakeyu.top/20170327149054592270732.png)
+![](/images/20170327149054592270732.png)
 
 <!--more-->
 ## 组合继承

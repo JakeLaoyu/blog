@@ -29,15 +29,15 @@ ChatGPT 能做的其实很多，但是功能再多能帮助我们的才是实际
 
 ### 编程
 
-![](//blogimg.jakeyu.top/chatgpt镜像/SCR-20230529-lik.png)
+![](/images/chatgpt镜像/SCR-20230529-lik.png)
 
 ### 论文
 
-![](//blogimg.jakeyu.top/chatgpt镜像/SCR-20230529-lkp.png)
+![](/images/chatgpt镜像/SCR-20230529-lkp.png)
 
 ### 小红书探店文案
 
-![](//blogimg.jakeyu.top/chatgpt镜像/SCR-20230529-ll8.png)
+![](/images/chatgpt镜像/SCR-20230529-ll8.png)
 
 ### 等等
 

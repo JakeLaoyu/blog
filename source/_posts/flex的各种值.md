@@ -13,7 +13,7 @@ original:
 permalink:
 ---
 
-![](//blogimg.jakeyu.top/flex的各种值/bg2015071002.png)
+![](/images/flex的各种值/bg2015071002.png)
 
 <!--more-->
 

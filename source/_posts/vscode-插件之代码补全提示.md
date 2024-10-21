@@ -14,7 +14,7 @@ original:
 permalink:
 ---
 
-![](//blogimg.jakeyu.top/vscode-%E6%8F%92%E4%BB%B6%E4%B9%8B%E4%BB%A3%E7%A0%81%E8%A1%A5%E5%85%A8%E6%8F%90%E7%A4%BA/v2-30670b252d59bcc15c040f783d79f5e9_720w.png)
+![](/images/vscode-插件之代码补全提示/v2-30670b252d59bcc15c040f783d79f5e9_720w.png)
 
 <!--more-->
 

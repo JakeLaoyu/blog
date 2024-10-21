@@ -15,7 +15,7 @@ permalink:
 
 开发中遇到的video一些问题的汇总。
 
-![](//blogimg.jakeyu.top/video汇总/hmtl5video-thumb-1200x565.jpg)
+![](/images/video汇总/hmtl5video-thumb-1200x565.jpg)
 
 <!--more-->
 

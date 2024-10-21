@@ -32,17 +32,17 @@ permalink:
 	屏幕可用工作区高度： window.screen.availHeight;
 ~~~
 
-![](//blogimg.jakeyu.top//ScrollTop/1.jpeg)
+![](/images/ScrollTop/1.jpeg)
 
 
 &nbsp;&nbsp;`offsetTop`, `offsetLeft`：只读属性。要确定的这两个属性的值，首先得确定元素的`offsetParent`。`offsetParent`指的是距该元素最近的`position`不为`static`的祖先元素，如果没有则指向body元素。确定了`offsetParent`，`offsetLeft`指的是元素左侧偏移`offsetParent`的距离，同理`offsetTop`指的是上侧偏移的距离。<br>
 &nbsp;&nbsp;`offsetHeight`, `offsetWidth`：只读属性。这两个属性返回的是元素的高度或宽度，包括元素的边框、内边距和滚动条。返回值是一个经过四舍五入的整数。如下图：<br>
 
-![](//blogimg.jakeyu.top//ScrollTop/2.png)
+![](/images/ScrollTop/2.png)
 
 &nbsp;&nbsp;`scrollHeight`, `scrollWidth`：只读属性。返回元素内容的整体尺寸，包括元素看不见的部分（需要滚动才能看见的）。返回值包括`padding`，但不包括`margin`和`border`。如下图：<br>
 
-![](//blogimg.jakeyu.top//ScrollTop/3.png)
+![](/images/ScrollTop/3.png)
 
 &nbsp;&nbsp;`scrollTop`, `scrollLeft`：图中已经表示的很明白了。如果元素不能被滚动，则为0。<br>
 
@@ -50,7 +50,7 @@ permalink:
 
 &nbsp;&nbsp;`clientHeight`, `clientWidth`：包括padding，但不包括border, margin和滚动条。如下图<br>
 
-![](//blogimg.jakeyu.top//ScrollTop/4.png)
+![](/images/ScrollTop/4.png)
 
 &nbsp;&nbsp;`Element.getBoundingClientRect()`：只读，返回浮点值。这个方法非常有用，常用于确定元素相对于视口的位置。该方法会返回一个DOMRect对象，包含`left`, `top`, `width`, `height`, `bottom`, `right`六个属性：<br>
 

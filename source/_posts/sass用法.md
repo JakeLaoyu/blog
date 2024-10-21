@@ -15,7 +15,7 @@ permalink:
 
 今天改一套模版，要用到sass，之前一直用的是less，索性就大概看看sass语法和编译。
 
-![](//blogimg.jakeyu.top/20170327149054550084076.jpg)
+![](/images/20170327149054550084076.jpg)
 
 <!--more-->
 

@@ -12,7 +12,7 @@ original:
 permalink:
 ---
 
-![](//blogimg.jakeyu.top/git/ITH_Managing-Code-in-GIT.jpg)
+![](/images/git/ITH_Managing-Code-in-GIT.jpg)
 
 <!--more-->
 
@@ -32,11 +32,11 @@ git commit
 
 基本上，你写什么都行（[这里](http://www.commitlogsfromlastnight.com/)，[这里](http://blog.no-panic.at/2014/10/20/funny-initial-git-commit-messages/)和[这里](http://whatthecommit.com/)）。
 
-![](//blogimg.jakeyu.top/git/bg2016010601.png)
+![](/images/git/bg2016010601.png)
 
 但是，一般来说，commit message 应该清晰明了，说明本次提交的目的。
 
-![](//blogimg.jakeyu.top/git/bg2016010602.png)
+![](/images/git/bg2016010602.png)
 
 目前，社区有多种 Commit message 的写法规范。本文介绍[Angular 规范](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit#heading=h.greljkmo14y0)（见上图），这是目前使用最广的写法，比较合理和系统化，并且有配套的工具。
 
@@ -52,7 +52,7 @@ git commit
 git log <last tag> HEAD --pretty=format:%s
 ```
 
-![](//blogimg.jakeyu.top/git/bg2016010604.png)
+![](/images/git/bg2016010604.png)
 
 2. 可以过滤某些commit（比如文档改动），便于快速查找信息。
 
@@ -66,7 +66,7 @@ git log <last release> HEAD --grep feature
 
 Change Log 是发布新版本时，用来说明与上一个版本差异的文档，详见后文。
 
-![](//blogimg.jakeyu.top/git/bg2016010603.png)
+![](/images/git/bg2016010603.png)
 
 # Commit message 的格式
 
@@ -276,7 +276,7 @@ commitizen init cz-conventional-changelog --save --save-exact
 
 以后，凡是用到`git commit`命令，一律改为使用`git cz`。这时，就会出现选项，用来生成符合格式的 Commit message。
 
-![](//blogimg.jakeyu.top/git/bg2016010605.png)
+![](/images/git/bg2016010605.png)
 
 # 生成 Change log
 

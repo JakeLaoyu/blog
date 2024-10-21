@@ -14,7 +14,7 @@ permalink:
 ---
 mongodb是非关系数据库，存储json格式，所以特别适合使用js操作数据库。
 
-![](//blogimg.jakeyu.top/20170327149054574361411.png)
+![](/images/20170327149054574361411.png)
 
 <!--more-->
 
