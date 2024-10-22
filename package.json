@@ -6,8 +6,8 @@
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy -g",
-    "server": "hexo server",
-    "dev": "hexo server",
+    "server": "NODE_ENV=development hexo server",
+    "dev": "NODE_ENV=development hexo server",
     "dev:draft": "hexo server --draft",
     "release": "npm run backup",
     "backup": "node ./script/backup.js"

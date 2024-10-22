@@ -105,7 +105,6 @@ deploy:
   - type: git
     repo:
       # github: git@github.com:JakeLaoyu/blog.git
-      腾讯云: root@110.40.198.64:/www/wwwroot/blog.git
     branch: gh-pages
 
 feed:
