@@ -35,9 +35,11 @@ jobs:
           BUCKET: ${{ secrets.Bucket }}
           REGION: ${{ secrets.Region }}
         run: coscmd config -a $SECRET_ID -s $SECRET_KEY -b $BUCKET -r $REGION
+        
       - name: Upload
         run: cd ./public && coscmd upload -r ./ /
-      - name: Tencent
+
+      - name: Refresh CDN
         run: node ./tencent.js
         env:
           TENCENT_SECRET_ID: ${{secrets.SecretId}}
