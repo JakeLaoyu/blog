@@ -110,7 +110,7 @@ deploy:
 feed:
   type: atom
   path: atom.xml
-  limit: 5
+  limit: 20
   hub:
 
 sitemap:
