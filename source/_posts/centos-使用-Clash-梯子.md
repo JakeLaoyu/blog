@@ -44,7 +44,7 @@ l ~/.config/clash
 
 ### 复制订阅地址
 
-![](/images/centos-使用-Clash-梯子/iShot2021-11-27%2023.29.16.png)
+![](/images/centos-使用-Clash-梯子/SCR-20241119-hkq.png)
 
 这个配置我们不能直接使用，需要使用 [https://acl4ssr-sub.github.io/](https://acl4ssr-sub.github.io/) 服务生成订阅地址，然后打开订阅地址就可以看到明文配置。
 
