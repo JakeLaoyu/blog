@@ -26,6 +26,7 @@ noDate: "true"
 
 ### 项目:
 
+* [Analytics for Cloudflare](https://zobubo.com/)
 * [临时邮箱](https://email-once.com/)
 * [开发工具箱](https://devtool.club/)
 * [七牛图床管理](https://github.com/JakeLaoyu/qiniu-images-manager)
