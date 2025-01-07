@@ -41,6 +41,6 @@
   },
   "devDependencies": {
     "dayjs": "^1.11.13",
-    "tencentcloud-sdk-nodejs": "^4.0.1006"
+    "tencentcloud-sdk-nodejs": "^4.0.1007"
   }
 }
