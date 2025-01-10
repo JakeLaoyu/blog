@@ -79,8 +79,8 @@ importers:
         specifier: ^1.11.13
         version: 1.11.13
       tencentcloud-sdk-nodejs:
-        specifier: ^4.0.1009
-        version: 4.0.1009
+        specifier: ^4.0.1010
+        version: 4.0.1010
 
 packages:
 
@@ -2482,8 +2482,8 @@ packages:
     resolution: {integrity: sha512-ZOn6nJUgvgC09+doCEF3oB+r3ag7kUvlsXEGX069QRD60p+P3uP7XG9N2/at+EyIRGSN//ZY3LyEotA1YpmjuA==}
     engines: {node: '>=4'}
 
-  tencentcloud-sdk-nodejs@4.0.1009:
-    resolution: {integrity: sha512-YvO+mMh6EOEqdGkQspH/02zB4i+7JqksYxlydYD4zH0taimXJjXcOOpmJLxgV5SdIRsIKpV2J/Tp3XWjV+q2og==}
+  tencentcloud-sdk-nodejs@4.0.1010:
+    resolution: {integrity: sha512-cpB5YXYaX+jp1JktIP0BuzRf84pRth6b01muVzhJe1cora7M2xFjbZxEYkyEJuIxpBAXOhXVbh0ocxM5xKvaQA==}
     engines: {node: '>=10'}
 
   terser@4.8.1:
@@ -5509,7 +5509,7 @@ snapshots:
       temp-dir: 1.0.0
       uuid: 3.4.0
 
-  tencentcloud-sdk-nodejs@4.0.1009:
+  tencentcloud-sdk-nodejs@4.0.1010:
     dependencies:
       form-data: 3.0.2
       get-stream: 6.0.1
