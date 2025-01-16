@@ -19,7 +19,7 @@ ChatGPT是国外人工智能实验室Open AI开发的一款对话式语言模型
 
 ## 先上网址
 
-[https://gpttalk.live/](https://gpttalk.live/)
+<!-- [https://gpttalk.live/](https://gpttalk.live/)
 
 支持 GPT 3.5、GPT 4，其他模型正在开发中。
 
@@ -42,4 +42,4 @@ ChatGPT 能做的其实很多，但是功能再多能帮助我们的才是实际
 ### 等等
 
 这些是基于 chatGPT 3.5 的，不能说什么事情就能解决，但是大部分的问题都能解决，至少比用搜索引擎方便快捷。
-
+ -->
