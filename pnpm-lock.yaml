@@ -79,8 +79,8 @@ importers:
         specifier: ^1.11.13
         version: 1.11.13
       tencentcloud-sdk-nodejs:
-        specifier: ^4.0.1015
-        version: 4.0.1015
+        specifier: ^4.0.1016
+        version: 4.0.1016
 
 packages:
 
@@ -601,6 +601,15 @@ packages:
       supports-color:
         optional: true
 
+  debug@4.4.0:
+    resolution: {integrity: sha512-6WTZ/IxCY/T6BALoZHaE4ctp9xm+Z5kY/pzYaCHRFeyVhojxlrm+46y68HA6hr0TcwEssoxNiDEUJQjfPZ/RYA==}
+    engines: {node: '>=6.0'}
+    peerDependencies:
+      supports-color: '*'
+    peerDependenciesMeta:
+      supports-color:
+        optional: true
+
   decamelize@1.2.0:
     resolution: {integrity: sha512-z2S+W9X73hAUUki+N+9Za2lBlun89zigOyGrsax+KUQ6wKW4ZoWpEYBkGhQjwAjjDCkWxhY0VKEhk8wzY7F5cA==}
     engines: {node: '>=0.10.0'}
@@ -922,8 +931,8 @@ packages:
     resolution: {integrity: sha512-sJe+TQb2vIaIyO783qN6BlMYWMw3WBOHA1Ay2qxsnjuafEOQFJ2JakedOQirT6D5XPRxDvS7AHYyem9fTpb4LQ==}
     engines: {node: '>= 6'}
 
-  form-data@4.0.0:
-    resolution: {integrity: sha512-ETEklSGi5t0QMZuiXoA/Q6vcnxcLQP5vdugSpuAyi6SVGi2clPPp+xgEhuMaHC+zGgn31Kd235W35f7Hykkaww==}
+  form-data@4.0.1:
+    resolution: {integrity: sha512-tzN8e4TX8+kkxGPK8D5u0FNmjPUjw3lwC9lSLxxoB/+GtsJG91CO8bSWy73APlgAZzZbXEYZJuxjkHH2w+Ezhw==}
     engines: {node: '>= 6'}
 
   fragment-cache@0.2.1:
@@ -2482,8 +2491,8 @@ packages:
     resolution: {integrity: sha512-ZOn6nJUgvgC09+doCEF3oB+r3ag7kUvlsXEGX069QRD60p+P3uP7XG9N2/at+EyIRGSN//ZY3LyEotA1YpmjuA==}
     engines: {node: '>=4'}
 
-  tencentcloud-sdk-nodejs@4.0.1015:
-    resolution: {integrity: sha512-6k0HD2z9XjV4salBQBPCROnjFGJ5BwjEPKesBYOZb93DZLA0lgppcV92GuhiPUwYMhPCTWX4vDqEYwhHq326VQ==}
+  tencentcloud-sdk-nodejs@4.0.1016:
+    resolution: {integrity: sha512-o5Oqk2jyRxeCJR/HPs6T+x1XuyakgiXkahXfD6b9ZW1uSlPrdOCU5sd5Xl2bzAwsXZmDg3k5tv/HA/gw9Pk3Vg==}
     engines: {node: '>=10'}
 
   terser@4.8.1:
@@ -2568,8 +2577,8 @@ packages:
   tslib@1.13.0:
     resolution: {integrity: sha512-i/6DQjL8Xf3be4K/E6Wgpekn5Qasl1usyw++dAA35Ue5orEn65VIxOA+YvNNl9HV3qv70T7CNwjODHZrLwvd1Q==}
 
-  tslib@2.6.3:
-    resolution: {integrity: sha512-xNvxJEOUiWPGhUuUdQgAJPKOOJfGnIyKySOc09XkKsgdUV/3E2zvwZYdejjmRgPCgcym1juLH3226yA7sEFJKQ==}
+  tslib@2.8.1:
+    resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
 
   tunnel-agent@0.6.0:
     resolution: {integrity: sha512-McnNiV1l8RYeY8tBgEpuodCC1mLUdbSN+CYBL7kJsJNInOP8UjDDEwdk6Mw60vdLLrr5NHKZhMAOSrR2NZuQ+w==}
@@ -2812,7 +2821,7 @@ snapshots:
 
   agent-base@6.0.2:
     dependencies:
-      debug: 4.3.6
+      debug: 4.4.0
     transitivePeerDependencies:
       - supports-color
 
@@ -3045,7 +3054,7 @@ snapshots:
   camel-case@4.1.2:
     dependencies:
       pascal-case: 3.1.2
-      tslib: 2.6.3
+      tslib: 2.8.1
 
   camelcase-keys@2.1.0:
     dependencies:
@@ -3357,6 +3366,10 @@ snapshots:
     dependencies:
       ms: 2.1.2
 
+  debug@4.4.0:
+    dependencies:
+      ms: 2.1.3
+
   decamelize@1.2.0: {}
 
   decimal.js@10.4.3: {}
@@ -3492,7 +3505,7 @@ snapshots:
   dot-case@3.0.4:
     dependencies:
       no-case: 3.0.4
-      tslib: 2.6.3
+      tslib: 2.8.1
 
   download@6.2.5:
     dependencies:
@@ -3756,7 +3769,7 @@ snapshots:
       combined-stream: 1.0.8
       mime-types: 2.1.35
 
-  form-data@4.0.0:
+  form-data@4.0.1:
     dependencies:
       asynckit: 0.4.0
       combined-stream: 1.0.8
@@ -4299,21 +4312,21 @@ snapshots:
   http-proxy-agent@7.0.2:
     dependencies:
       agent-base: 7.1.3
-      debug: 4.3.6
+      debug: 4.4.0
     transitivePeerDependencies:
       - supports-color
 
   https-proxy-agent@5.0.1:
     dependencies:
       agent-base: 6.0.2
-      debug: 4.3.6
+      debug: 4.4.0
     transitivePeerDependencies:
       - supports-color
 
   https-proxy-agent@7.0.6:
     dependencies:
       agent-base: 7.1.3
-      debug: 4.3.6
+      debug: 4.4.0
     transitivePeerDependencies:
       - supports-color
 
@@ -4543,7 +4556,7 @@ snapshots:
       cssstyle: 4.1.0
       data-urls: 5.0.0
       decimal.js: 10.4.3
-      form-data: 4.0.0
+      form-data: 4.0.1
       html-encoding-sniffer: 4.0.0
       http-proxy-agent: 7.0.2
       https-proxy-agent: 7.0.6
@@ -4646,7 +4659,7 @@ snapshots:
 
   lower-case@2.0.2:
     dependencies:
-      tslib: 2.6.3
+      tslib: 2.8.1
 
   lowercase-keys@1.0.0: {}
 
@@ -4850,7 +4863,7 @@ snapshots:
   no-case@3.0.4:
     dependencies:
       lower-case: 2.0.2
-      tslib: 2.6.3
+      tslib: 2.8.1
 
   node-fetch@2.7.0:
     dependencies:
@@ -5007,7 +5020,7 @@ snapshots:
   param-case@3.0.4:
     dependencies:
       dot-case: 3.0.4
-      tslib: 2.6.3
+      tslib: 2.8.1
 
   parse-json@2.2.0:
     dependencies:
@@ -5027,7 +5040,7 @@ snapshots:
   pascal-case@3.1.2:
     dependencies:
       no-case: 3.0.4
-      tslib: 2.6.3
+      tslib: 2.8.1
 
   pascalcase@0.1.1: {}
 
@@ -5509,7 +5522,7 @@ snapshots:
       temp-dir: 1.0.0
       uuid: 3.4.0
 
-  tencentcloud-sdk-nodejs@4.0.1015:
+  tencentcloud-sdk-nodejs@4.0.1016:
     dependencies:
       form-data: 3.0.2
       get-stream: 6.0.1
@@ -5596,7 +5609,7 @@ snapshots:
 
   tslib@1.13.0: {}
 
-  tslib@2.6.3: {}
+  tslib@2.8.1: {}
 
   tunnel-agent@0.6.0:
     dependencies:
