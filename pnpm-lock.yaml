@@ -79,8 +79,8 @@ importers:
         specifier: ^1.11.13
         version: 1.11.13
       tencentcloud-sdk-nodejs:
-        specifier: ^4.0.1053
-        version: 4.0.1053
+        specifier: ^4.0.1054
+        version: 4.0.1054
 
 packages:
 
@@ -1785,6 +1785,10 @@ packages:
     resolution: {integrity: sha512-oHlN/w+3MQ3rba9rqFr6V/ypF10LSkdwUysQL7GkXoTgIWeV+tcXGA852TBxH+gsh8UWoyhR1hKcoMJTuWflpg==}
     engines: {node: '>= 0.6'}
 
+  mime-db@1.54.0:
+    resolution: {integrity: sha512-aU5EJuIN2WDemCcAp2vFBfp/m4EAhWJnUNSSw0ixs7/kXbd6Pg64EmwJkNdFhB8aWt1sH2CTXrLxo/iAGV3oPQ==}
+    engines: {node: '>= 0.6'}
+
   mime-types@2.1.35:
     resolution: {integrity: sha512-ZDY+bPm5zTTF+YpCrAU9nK0UgICYPT0QtT1NZWFv4s++TNkcgVaT0g6+4R2uI4MjQjzysHB1zxuWL50hzaeXiw==}
     engines: {node: '>= 0.6'}
@@ -2583,8 +2587,8 @@ packages:
     resolution: {integrity: sha512-ZOn6nJUgvgC09+doCEF3oB+r3ag7kUvlsXEGX069QRD60p+P3uP7XG9N2/at+EyIRGSN//ZY3LyEotA1YpmjuA==}
     engines: {node: '>=4'}
 
-  tencentcloud-sdk-nodejs@4.0.1053:
-    resolution: {integrity: sha512-0/sDEYT2OINsVqMaA1DdKPq0WJcZo3mUE3x0xf2N4OyjN176leVjJVxp5h9o+NdbkG6xEK5842bBpa07yFtzjw==}
+  tencentcloud-sdk-nodejs@4.0.1054:
+    resolution: {integrity: sha512-+QR+ullUW2iZhSTkkBBF1cJxTrUfKgJ7KB8InwPRe/EsSjmOQdUweP4gRplFDMhFBzoaotpaWPShmmirG0nPiw==}
     engines: {node: '>=10'}
 
   terser@4.8.1:
@@ -3796,7 +3800,7 @@ snapshots:
 
   ext-list@2.2.2:
     dependencies:
-      mime-db: 1.53.0
+      mime-db: 1.54.0
 
   ext-name@5.0.0:
     dependencies:
@@ -4933,6 +4937,8 @@ snapshots:
 
   mime-db@1.53.0: {}
 
+  mime-db@1.54.0: {}
+
   mime-types@2.1.35:
     dependencies:
       mime-db: 1.52.0
@@ -5712,7 +5718,7 @@ snapshots:
       temp-dir: 1.0.0
       uuid: 3.4.0
 
-  tencentcloud-sdk-nodejs@4.0.1053:
+  tencentcloud-sdk-nodejs@4.0.1054:
     dependencies:
       form-data: 3.0.3
       get-stream: 6.0.1
