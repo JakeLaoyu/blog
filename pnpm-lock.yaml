@@ -39,8 +39,8 @@ importers:
         specifier: ^4.2.3
         version: 4.2.3
       hexo-generator-searchdb:
-        specifier: ^1.4.1
-        version: 1.4.1(chokidar@3.6.0)
+        specifier: ^1.5.0
+        version: 1.5.0(chokidar@3.6.0)
       hexo-generator-seo-friendly-sitemap:
         specifier: ^0.2.1
         version: 0.2.1
@@ -1214,8 +1214,8 @@ packages:
   hexo-generator-json-content@4.2.3:
     resolution: {integrity: sha512-XGqCaTUr6+X8Ty/YvRi+0eh0DJgHcp+lgBhn+Sgyh6ev40P0cwamwJyaZroTdHt8GPoBwbSGVu0H/CdzEf0lFA==}
 
-  hexo-generator-searchdb@1.4.1:
-    resolution: {integrity: sha512-7m8IBpZbI6iKb2jRYxs4pghD6Ln8ylQSRGl6MIC4G9wws21vYSXSD8rvC3MoCO+pWBHs6E/mTA/rjG+p2AZfVg==}
+  hexo-generator-searchdb@1.5.0:
+    resolution: {integrity: sha512-d0b5SueDxJimTFaHpPg430FQFx7DtMkmEIHo0UTOjXWRy+eDqNSp1CuS04P7fWzMnH2h+aQc6O9D2yY+3sdAUg==}
 
   hexo-generator-seo-friendly-sitemap@0.2.1:
     resolution: {integrity: sha512-DtEulX/7U2X4bRLztb6cDtHEvtwhEPSaL6shaxNtk2oPljJlnep9vFGGlF3KvTD1XADxSOtvVHd3RKWZEXl9WA==}
@@ -4256,7 +4256,7 @@ snapshots:
       keyword-extractor: 0.0.28
       moment: 2.30.1
 
-  hexo-generator-searchdb@1.4.1(chokidar@3.6.0):
+  hexo-generator-searchdb@1.5.0(chokidar@3.6.0):
     dependencies:
       nunjucks: 3.2.4(chokidar@3.6.0)
     transitivePeerDependencies:
