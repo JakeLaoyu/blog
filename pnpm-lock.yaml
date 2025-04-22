@@ -79,8 +79,8 @@ importers:
         specifier: ^1.11.13
         version: 1.11.13
       tencentcloud-sdk-nodejs:
-        specifier: ^4.1.20
-        version: 4.1.20
+        specifier: ^4.1.21
+        version: 4.1.21
 
 packages:
 
@@ -305,8 +305,8 @@ packages:
     resolution: {integrity: sha512-NF+epuEdnUYVlGuhaxbbq+dvJttwLnGY+YixlXlME5KpQ5W3CnXA5cVTneY3SPbPDRkcjMbifrwmFYcClgOZeg==}
     engines: {node: '>= 0.8'}
 
-  bignumber.js@9.2.1:
-    resolution: {integrity: sha512-+NzaKgOUvInq9TIUZ1+DRspzf/HApkCwD4btfuasFTdrfnOxqx853TgDpMolp+uv4RpRp7bPcEU2zKr9+fRmyw==}
+  bignumber.js@9.3.0:
+    resolution: {integrity: sha512-EM7aMFTXbptt/wZdMlBv2t8IViwQL+h6SLHosp8Yf0dqJMTnY6iL32opnAB6kAdL0SZPuvcAzFr31o0c/R3/RA==}
 
   bin-build@3.0.0:
     resolution: {integrity: sha512-jcUOof71/TNAI2uM5uoUaDq2ePcVBQ3R/qhxAz1rX7UfvduAL/RXD3jXzvn8cVcDJdGVkiR1shal3OH0ImpuhA==}
@@ -2587,8 +2587,8 @@ packages:
     resolution: {integrity: sha512-ZOn6nJUgvgC09+doCEF3oB+r3ag7kUvlsXEGX069QRD60p+P3uP7XG9N2/at+EyIRGSN//ZY3LyEotA1YpmjuA==}
     engines: {node: '>=4'}
 
-  tencentcloud-sdk-nodejs@4.1.20:
-    resolution: {integrity: sha512-kE8Xjczpm2pQHGplQVhqIjgtm4PAn1n3FjogbpectmvJ2TYkdUeatWOMKEfSQFrUZg4aaqsj/AZ52/g6J0XCPQ==}
+  tencentcloud-sdk-nodejs@4.1.21:
+    resolution: {integrity: sha512-hNUYKX9//flTC7OYAhXAesY4A0260xPOAdDTBWU8GjlWopc1sQy89XrWrOdBkS6VGzEuW68gyu4aQSFhXZFtWw==}
     engines: {node: '>=10'}
 
   terser@4.8.1:
@@ -3046,7 +3046,7 @@ snapshots:
     dependencies:
       safe-buffer: 5.1.2
 
-  bignumber.js@9.2.1: {}
+  bignumber.js@9.3.0: {}
 
   bin-build@3.0.0:
     dependencies:
@@ -4765,7 +4765,7 @@ snapshots:
 
   json-bigint@1.0.0:
     dependencies:
-      bignumber.js: 9.2.1
+      bignumber.js: 9.3.0
 
   json-buffer@3.0.0: {}
 
@@ -5718,7 +5718,7 @@ snapshots:
       temp-dir: 1.0.0
       uuid: 3.4.0
 
-  tencentcloud-sdk-nodejs@4.1.20:
+  tencentcloud-sdk-nodejs@4.1.21:
     dependencies:
       form-data: 3.0.3
       get-stream: 6.0.1
