@@ -79,8 +79,8 @@ importers:
         specifier: ^1.11.13
         version: 1.11.13
       tencentcloud-sdk-nodejs:
-        specifier: ^4.1.51
-        version: 4.1.51
+        specifier: ^4.1.53
+        version: 4.1.53
 
 packages:
 
@@ -989,8 +989,8 @@ packages:
     resolution: {integrity: sha512-q5YBMeWy6E2Un0nMGWMgI65MAKtaylxfNJGJxpGh45YDciZB4epbWpaAfImil6CPAPTYB4sh0URQNDRIZG5F2w==}
     engines: {node: '>= 6'}
 
-  form-data@4.0.2:
-    resolution: {integrity: sha512-hGfm/slu0ZabnNt4oaRZ6uREyfCj6P4fT/n6A1rGV+Z0VdGXjfOhVUpkn6qVQONHGIFwmveGXyDs75+nr6FM8w==}
+  form-data@4.0.3:
+    resolution: {integrity: sha512-qsITQPfmvMOSAdeyZ+12I1c+CKSstAFAwu+97zrnWAbIr5u8wfsExUzCesVLC8NgHuRUqNN4Zy6UPWUTRGslcA==}
     engines: {node: '>= 6'}
 
   fragment-cache@0.2.1:
@@ -2587,8 +2587,8 @@ packages:
     resolution: {integrity: sha512-ZOn6nJUgvgC09+doCEF3oB+r3ag7kUvlsXEGX069QRD60p+P3uP7XG9N2/at+EyIRGSN//ZY3LyEotA1YpmjuA==}
     engines: {node: '>=4'}
 
-  tencentcloud-sdk-nodejs@4.1.51:
-    resolution: {integrity: sha512-MHZvt9r8LZTwh1Wh7KmjtAwaSkVodyez8f51z22pQ6j/gyA7HZHkbp50k36rdhIoE0BKr5xm67dd7sZWWvXs9g==}
+  tencentcloud-sdk-nodejs@4.1.53:
+    resolution: {integrity: sha512-7tORlDp0stlgtUhIGwvlSVmuKMRilwnrGEBXIBlhFDBm7Y6BStlw1GXOns6wedY/D+I90SuaaK6XEkUijTbBhw==}
     engines: {node: '>=10'}
 
   terser@4.8.1:
@@ -3926,11 +3926,12 @@ snapshots:
       es-set-tostringtag: 2.1.0
       mime-types: 2.1.35
 
-  form-data@4.0.2:
+  form-data@4.0.3:
     dependencies:
       asynckit: 0.4.0
       combined-stream: 1.0.8
       es-set-tostringtag: 2.1.0
+      hasown: 2.0.2
       mime-types: 2.1.35
 
   fragment-cache@0.2.1:
@@ -4740,7 +4741,7 @@ snapshots:
       cssstyle: 4.2.1
       data-urls: 5.0.0
       decimal.js: 10.5.0
-      form-data: 4.0.2
+      form-data: 4.0.3
       html-encoding-sniffer: 4.0.0
       http-proxy-agent: 7.0.2
       https-proxy-agent: 7.0.6
@@ -5718,7 +5719,7 @@ snapshots:
       temp-dir: 1.0.0
       uuid: 3.4.0
 
-  tencentcloud-sdk-nodejs@4.1.51:
+  tencentcloud-sdk-nodejs@4.1.53:
     dependencies:
       form-data: 3.0.3
       get-stream: 6.0.1
