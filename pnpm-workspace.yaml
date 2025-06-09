@@ -1,2 +1,4 @@
 onlyBuiltDependencies:
   - hexo-word-counter
+packages:
+  - '.'
