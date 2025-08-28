@@ -40,7 +40,7 @@
     "js-yaml": "^4.1.0"
   },
   "devDependencies": {
-    "dayjs": "^1.11.13",
+    "dayjs": "^1.11.14",
     "tencentcloud-sdk-nodejs": "^4.1.104"
   }
 }
