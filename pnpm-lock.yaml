@@ -79,8 +79,8 @@ importers:
         specifier: ^1.11.18
         version: 1.11.18
       tencentcloud-sdk-nodejs:
-        specifier: ^4.1.154
-        version: 4.1.154
+        specifier: ^4.1.162
+        version: 4.1.162
 
 packages:
 
@@ -2618,8 +2618,8 @@ packages:
     resolution: {integrity: sha512-ZOn6nJUgvgC09+doCEF3oB+r3ag7kUvlsXEGX069QRD60p+P3uP7XG9N2/at+EyIRGSN//ZY3LyEotA1YpmjuA==}
     engines: {node: '>=4'}
 
-  tencentcloud-sdk-nodejs@4.1.154:
-    resolution: {integrity: sha512-9/JcYhdQz+C8N1XGzNDK7l5QUgUnwXVRmJtSDKE14SanCQnCpIpdlPaP95G6lJA9cJqYpCoobtzVX6QzE8Z1dA==}
+  tencentcloud-sdk-nodejs@4.1.162:
+    resolution: {integrity: sha512-gEr0gHeyFQpFxUsbOYEsx1aLqyEhIgs555mZcyMrqpGXAZ+maO1Wl7NE5DsVz9WYuH4Iy2kAlWc68CdNDB/lQg==}
     engines: {node: '>=10'}
 
   terser@4.8.1:
@@ -2819,6 +2819,7 @@ packages:
   whatwg-encoding@3.1.1:
     resolution: {integrity: sha512-6qN4hJdMwfYBtE3YBTTHhoeuUrDBPZmbQaxWAqSALV/MeEnR5z1xd8UKud2RAkFoPkmB+hli1TZSnyi84xz1vQ==}
     engines: {node: '>=18'}
+    deprecated: Use @exodus/bytes instead for a more spec-conformant and faster implementation
 
   whatwg-mimetype@4.0.0:
     resolution: {integrity: sha512-QaKxh0eNIi2mE9p2vEdzfagOKHCcj1pJ56EEHGQOVxp8r9/iszLUUV7v89x9O1p/T+NlTM5W7jW6+cz4Fq1YVg==}
@@ -5787,7 +5788,7 @@ snapshots:
       temp-dir: 1.0.0
       uuid: 3.4.0
 
-  tencentcloud-sdk-nodejs@4.1.154:
+  tencentcloud-sdk-nodejs@4.1.162:
     dependencies:
       form-data: 3.0.4
       get-stream: 6.0.1
