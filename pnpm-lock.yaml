@@ -69,8 +69,8 @@ importers:
         specifier: ^3.3.0
         version: 3.3.0
       hexo-word-counter:
-        specifier: ^0.2.1
-        version: 0.2.1
+        specifier: ^0.2.2
+        version: 0.2.2
       js-yaml:
         specifier: ^4.1.0
         version: 4.1.0
@@ -1292,8 +1292,8 @@ packages:
     resolution: {integrity: sha512-oXKXBs1HZ2Wu/eq0paAVqtCmAEcqJPZ4xxSVRuwAplm1hFU41Ul53WA5bmYMEz9Dp+OJ/SdchjXRmYlbGJdt3w==}
     engines: {node: '>=18'}
 
-  hexo-word-counter@0.2.1:
-    resolution: {integrity: sha512-LkdXM9SykbVzZBGhCrYOonb/4FrNCQhVwnigt7pkVSa43Zejq3+VsG0kYmOZxDVlBmNCD1iokF6OZ3d6cYRa1Q==}
+  hexo-word-counter@0.2.2:
+    resolution: {integrity: sha512-ga/0MbBlN/Xu8I6orRKpYJ/z4aNe3U4honCwBePna8e5gTEeHeF4COs3u4U9x041p8OApFiWQxhYoNOqieEwYw==}
 
   hexo@3.9.0:
     resolution: {integrity: sha512-uga6MsxGlD0AeafiObbFkQVWlUO+wWTb/IJVPI3fFpmAJu0PBD//Ek0qVOxHjlzdvFGeW0bYWYqXgDbR7suJng==}
@@ -2819,6 +2819,7 @@ packages:
   whatwg-encoding@3.1.1:
     resolution: {integrity: sha512-6qN4hJdMwfYBtE3YBTTHhoeuUrDBPZmbQaxWAqSALV/MeEnR5z1xd8UKud2RAkFoPkmB+hli1TZSnyi84xz1vQ==}
     engines: {node: '>=18'}
+    deprecated: Use @exodus/bytes instead for a more spec-conformant and faster implementation
 
   whatwg-mimetype@4.0.0:
     resolution: {integrity: sha512-QaKxh0eNIi2mE9p2vEdzfagOKHCcj1pJ56EEHGQOVxp8r9/iszLUUV7v89x9O1p/T+NlTM5W7jW6+cz4Fq1YVg==}
@@ -4421,7 +4422,7 @@ snapshots:
       prismjs: 1.30.0
       strip-indent: 3.0.0
 
-  hexo-word-counter@0.2.1:
+  hexo-word-counter@0.2.2:
     dependencies:
       cargo-cp-artifact: 0.1.9
 
