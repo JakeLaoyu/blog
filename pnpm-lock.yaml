@@ -79,8 +79,8 @@ importers:
         specifier: ^1.11.18
         version: 1.11.18
       tencentcloud-sdk-nodejs:
-        specifier: ^4.1.154
-        version: 4.1.154
+        specifier: ^4.1.180
+        version: 4.1.180
 
 packages:
 
@@ -822,8 +822,8 @@ packages:
     resolution: {integrity: sha512-V0hjH4dGPh9Ao5p0MoRY6BVqtwCjhz6vI5LT8AJ55H+4g9/4vbHx1I54fS0XuclLhDHArPQCiMjDxjaL8fPxhw==}
     engines: {node: '>=0.12'}
 
-  entities@6.0.1:
-    resolution: {integrity: sha512-aN97NXWF6AWBTahfVOIrB/NShkzi5H7F9r1s9mD3cDj4Ko5f2qhhVoYMibXF7GlLveb/D2ioWay8lxI97Ven3g==}
+  entities@7.0.1:
+    resolution: {integrity: sha512-TWrgLOFUQTH994YUyl1yT4uyavY5nNB5muff+RtWaqNVCAK408b5ZnnbNAUEWLTCpum9w6arT70i1XdQ4UeOPA==}
     engines: {node: '>=0.12'}
 
   error-ex@1.3.2:
@@ -1332,8 +1332,8 @@ packages:
     engines: {node: '>=6'}
     hasBin: true
 
-  htmlparser2@10.0.0:
-    resolution: {integrity: sha512-TwAZM+zE5Tq3lrEHvOlvwgj1XLWQCtaaibSN11Q+gGBAS7Y1uZSWwXXRe4iF6OXnaq1riyQAPFOBtYc77Mxq0g==}
+  htmlparser2@10.1.0:
+    resolution: {integrity: sha512-VTZkM9GWRAtEpveh7MSF6SjjrpNVNNVJfFup7xTY3UpFtm67foy9HDVXneLtFVt4pMz5kZtgNcvCniNFb1hlEQ==}
 
   htmlparser2@3.10.1:
     resolution: {integrity: sha512-IgieNijUMbkDovyoKObU1DUhm1iwNYE/fuifEoEHfd1oZKZDaONBSkal7Y01shxsM49R4XaMdGez3WnF9UfiCQ==}
@@ -2618,8 +2618,8 @@ packages:
     resolution: {integrity: sha512-ZOn6nJUgvgC09+doCEF3oB+r3ag7kUvlsXEGX069QRD60p+P3uP7XG9N2/at+EyIRGSN//ZY3LyEotA1YpmjuA==}
     engines: {node: '>=4'}
 
-  tencentcloud-sdk-nodejs@4.1.154:
-    resolution: {integrity: sha512-9/JcYhdQz+C8N1XGzNDK7l5QUgUnwXVRmJtSDKE14SanCQnCpIpdlPaP95G6lJA9cJqYpCoobtzVX6QzE8Z1dA==}
+  tencentcloud-sdk-nodejs@4.1.180:
+    resolution: {integrity: sha512-AI5/OVFbOLpBfLAIqT3uowvCHoYPmM9aVM1iWdVVdc4To/49fUgjHu7oxpESo2QUPisqcc+gSMG+n3frWZx+bg==}
     engines: {node: '>=10'}
 
   terser@4.8.1:
@@ -2819,6 +2819,7 @@ packages:
   whatwg-encoding@3.1.1:
     resolution: {integrity: sha512-6qN4hJdMwfYBtE3YBTTHhoeuUrDBPZmbQaxWAqSALV/MeEnR5z1xd8UKud2RAkFoPkmB+hli1TZSnyi84xz1vQ==}
     engines: {node: '>=18'}
+    deprecated: Use @exodus/bytes instead for a more spec-conformant and faster implementation
 
   whatwg-mimetype@4.0.0:
     resolution: {integrity: sha512-QaKxh0eNIi2mE9p2vEdzfagOKHCcj1pJ56EEHGQOVxp8r9/iszLUUV7v89x9O1p/T+NlTM5W7jW6+cz4Fq1YVg==}
@@ -3746,7 +3747,7 @@ snapshots:
 
   entities@4.5.0: {}
 
-  entities@6.0.1: {}
+  entities@7.0.1: {}
 
   error-ex@1.3.2:
     dependencies:
@@ -4417,7 +4418,7 @@ snapshots:
       cross-spawn: 7.0.6
       deepmerge: 4.3.1
       highlight.js: 11.11.1
-      htmlparser2: 10.0.0
+      htmlparser2: 10.1.0
       prismjs: 1.30.0
       strip-indent: 3.0.0
 
@@ -4511,12 +4512,12 @@ snapshots:
       relateurl: 0.2.7
       terser: 4.8.1
 
-  htmlparser2@10.0.0:
+  htmlparser2@10.1.0:
     dependencies:
       domelementtype: 2.3.0
       domhandler: 5.0.3
       domutils: 3.2.2
-      entities: 6.0.1
+      entities: 7.0.1
 
   htmlparser2@3.10.1:
     dependencies:
@@ -5787,7 +5788,7 @@ snapshots:
       temp-dir: 1.0.0
       uuid: 3.4.0
 
-  tencentcloud-sdk-nodejs@4.1.154:
+  tencentcloud-sdk-nodejs@4.1.180:
     dependencies:
       form-data: 3.0.4
       get-stream: 6.0.1
