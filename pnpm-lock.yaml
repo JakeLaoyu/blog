@@ -79,8 +79,8 @@ importers:
         specifier: ^1.11.18
         version: 1.11.18
       tencentcloud-sdk-nodejs:
-        specifier: ^4.1.217
-        version: 4.1.217
+        specifier: ^4.1.222
+        version: 4.1.222
 
 packages:
 
@@ -1431,9 +1431,9 @@ packages:
   ini@1.3.8:
     resolution: {integrity: sha512-JV/yugV2uzW5iMRSiZAyDtQd+nxtUnjeLt0acNdw98kKLrvuRVyB80tsREOE7yvGVgalhZ6RNXCmEHkUKBKxew==}
 
-  ini@5.0.0:
-    resolution: {integrity: sha512-+N0ngpO3e7cRUWOJAS7qw0IZIVc6XPrW4MlFBdD066F2L4k1L6ker3hLqSq7iXxU5tgS4WGkIUElWn5vogAEnw==}
-    engines: {node: ^18.17.0 || >=20.5.0}
+  ini@2.0.0:
+    resolution: {integrity: sha512-7PnF4oN3CvZF23ADhA5wRaYEQpJ8qygSkbtTXWBeXWXmEVRXK+1ITciHWwHhsjv1TmW0MgacIv6hEi5pX5NQdA==}
+    engines: {node: '>=10'}
 
   into-stream@3.1.0:
     resolution: {integrity: sha512-TcdjPibTksa1NQximqep2r17ISRiNE9fwlfbg3F8ANdvP5/yrFTew86VcO//jk4QTaMlbjypPBq76HN2zaKfZQ==}
@@ -2618,8 +2618,8 @@ packages:
     resolution: {integrity: sha512-ZOn6nJUgvgC09+doCEF3oB+r3ag7kUvlsXEGX069QRD60p+P3uP7XG9N2/at+EyIRGSN//ZY3LyEotA1YpmjuA==}
     engines: {node: '>=4'}
 
-  tencentcloud-sdk-nodejs@4.1.217:
-    resolution: {integrity: sha512-tIXc+uBzYZs63LTx3auQSGwjiB+/n68VBlBYziggxEdPlY69FQjRX085xku2A+S/eiDQPE+a4QrBVQJ7W4o6ZA==}
+  tencentcloud-sdk-nodejs@4.1.222:
+    resolution: {integrity: sha512-oEeC3+vibS3Ru0GYez65f3z5EXlrvYED5DxXY54uX+3m40eDofLZ8JQjXif9BOvAdgSuxYFxPxHWJ9yGQLcE5g==}
     engines: {node: '>=10'}
 
   terser@4.8.1:
@@ -4654,7 +4654,7 @@ snapshots:
 
   ini@1.3.8: {}
 
-  ini@5.0.0: {}
+  ini@2.0.0: {}
 
   into-stream@3.1.0:
     dependencies:
@@ -5788,12 +5788,12 @@ snapshots:
       temp-dir: 1.0.0
       uuid: 3.4.0
 
-  tencentcloud-sdk-nodejs@4.1.217:
+  tencentcloud-sdk-nodejs@4.1.222:
     dependencies:
       form-data: 3.0.4
       get-stream: 6.0.1
       https-proxy-agent: 5.0.1
-      ini: 5.0.0
+      ini: 2.0.0
       is-stream: 2.0.1
       json-bigint: 1.0.0
       node-fetch: 2.7.0
