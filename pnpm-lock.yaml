@@ -79,8 +79,8 @@ importers:
         specifier: ^1.11.18
         version: 1.11.18
       tencentcloud-sdk-nodejs:
-        specifier: ^4.1.224
-        version: 4.1.224
+        specifier: ^4.1.233
+        version: 4.1.233
 
 packages:
 
@@ -2618,8 +2618,8 @@ packages:
     resolution: {integrity: sha512-ZOn6nJUgvgC09+doCEF3oB+r3ag7kUvlsXEGX069QRD60p+P3uP7XG9N2/at+EyIRGSN//ZY3LyEotA1YpmjuA==}
     engines: {node: '>=4'}
 
-  tencentcloud-sdk-nodejs@4.1.224:
-    resolution: {integrity: sha512-Bbd9B4EHxMFWjdFvghJHlow0AxFOZUuw4H9uhMl5cyVmOzck6guaFQEGDlejCp52314HoxIB5z0z0sScr3ZHhQ==}
+  tencentcloud-sdk-nodejs@4.1.233:
+    resolution: {integrity: sha512-+GApYTa3A3Z8WT2fmWgJM6xbnjbzz/7hnkDGtRRaQ9N0T5taZwidpZeCshbEWIOHk+toc8U127TkL7cX4hRUTQ==}
     engines: {node: '>=10'}
 
   terser@4.8.1:
@@ -2784,11 +2784,12 @@ packages:
 
   uuid@3.4.0:
     resolution: {integrity: sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==}
-    deprecated: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+    deprecated: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
     hasBin: true
 
   uuid@9.0.1:
     resolution: {integrity: sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA==}
+    deprecated: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
     hasBin: true
 
   validate-npm-package-license@3.0.4:
@@ -5788,7 +5789,7 @@ snapshots:
       temp-dir: 1.0.0
       uuid: 3.4.0
 
-  tencentcloud-sdk-nodejs@4.1.224:
+  tencentcloud-sdk-nodejs@4.1.233:
     dependencies:
       form-data: 3.0.4
       get-stream: 6.0.1
