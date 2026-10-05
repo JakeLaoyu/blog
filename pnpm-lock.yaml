@@ -25,7 +25,7 @@ importers:
         version: 2.0.0
       hexo-generator-baidu-sitemap:
         specifier: ^0.1.9
-        version: 0.1.9(chokidar@3.6.0)
+        version: 0.1.9(chokidar@3.6.0)(supports-color@7.2.0)
       hexo-generator-category:
         specifier: ^2.0.0
         version: 2.0.0
@@ -52,13 +52,13 @@ importers:
         version: 2.0.0
       hexo-renderer-marked:
         specifier: ^7.0.1
-        version: 7.0.1
+        version: 7.0.1(supports-color@7.2.0)
       hexo-renderer-stylus:
         specifier: ^3.0.1
-        version: 3.0.1
+        version: 3.0.1(supports-color@7.2.0)
       hexo-server:
         specifier: ^3.0.0
-        version: 3.0.0
+        version: 3.0.0(supports-color@7.2.0)
       hexo-theme-landscape:
         specifier: ^1.1.0
         version: 1.1.0
@@ -79,8 +79,8 @@ importers:
         specifier: ^1.11.18
         version: 1.11.18
       tencentcloud-sdk-nodejs:
-        specifier: ^4.1.269
-        version: 4.1.269
+        specifier: ^4.1.322
+        version: 4.1.322(supports-color@7.2.0)
 
 packages:
 
@@ -1156,10 +1156,6 @@ packages:
     resolution: {integrity: sha512-ODYZC64uqzmtfGMEAX/FvZiRyWLpAC3vYnNunURUnkGVTS+mI0smVsWaPydRBsE3g+ok7h960jChO8mFcWlHaQ==}
     engines: {node: '>=0.10.0'}
 
-  hasown@2.0.3:
-    resolution: {integrity: sha512-ej4AhfhfL2Q2zpMmLo7U1Uv9+PyhIZpgQLGT1F9miIGmiCJIoCgSmczFdrc97mWT4kVY72KA+WnnhJ5pghSvSg==}
-    engines: {node: '>= 0.4'}
-
   hasown@2.0.4:
     resolution: {integrity: sha512-T2UbfbBEF32wiepXIsMlTW9+dDYC6wMh/t/vYA4tuOMKqWz/n3vr1NFSxQiyP+zk2mXsoMA/i/7qV6LKut1t1A==}
     engines: {node: '>= 0.4'}
@@ -1641,9 +1637,9 @@ packages:
   keyv@3.0.0:
     resolution: {integrity: sha512-eguHnq22OE3uVoSYG0LVWNP+4ppamWr9+zWBe1bsNcovIMy6huUJFPgy4mGwCd/rnl3vOLGW1MTlu4c57CT1xA==}
 
-  keyword-extractor@0.0.28:
-    resolution: {integrity: sha512-oi7dSPpYtW/3fE0vZiqQgZ8mW3F1V9K4+rBJ0FcVrdXBEQuhZ0zKj7sX74eqGASuepLHf9aYdeonyKHWhYpHQA==}
-    engines: {node: '>= 0.10.0'}
+  keyword-extractor@0.3.2:
+    resolution: {integrity: sha512-L4C4lAvXKtFi9h7kbbM7UDjnUBdFtAUeQQQJqWLiWdbSdhtBr9IEegQmTejUFpAACfZQyOnWGnxt1flcGHywMw==}
+    engines: {node: '>= 14'}
 
   kind-of@3.2.2:
     resolution: {integrity: sha512-NOW9QQXMoZGg/oqnVNoNTTIFEIid1627WCffUBJEdMxYApq7mNE7CpzucIPc+ZQg25Phej7IJSmX3hO+oblOtQ==}
@@ -1878,6 +1874,9 @@ packages:
 
   moment@2.30.1:
     resolution: {integrity: sha512-uEmtNhbDOrWPFS+hdjFCBfy9f2YoyzRpwcl+DqpC6taX21FzsTLQVbMV/W7PzNSX6x/bhC1zA3c2UQ5NzH6how==}
+
+  moment@2.31.0:
+    resolution: {integrity: sha512-0acOTfMiWOheYS4eoWb80yYMb/JLvVv9SHbs2PehaDzfUG0Bw855SKyk0IKTnPGa5+U2bmi3W68l1+sGLX/pvw==}
 
   morgan@1.10.0:
     resolution: {integrity: sha512-AbegBVI4sh6El+1gNwvD5YIck7nSA36weD7xvIxG4in80j/UoK8AEGaWnnz8v1GxonMCltmlNs5ZKbGvl9b1XQ==}
@@ -2124,6 +2123,7 @@ packages:
 
   path-dirname@1.0.2:
     resolution: {integrity: sha512-ALzNPpyNq9AqXMBjeymIjFDAkAFH06mHJH/cSBHAgU0s4vfpBn6b2nf8tiRLvagKD8RbTpq2FKTBg7cl9l3c7Q==}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
 
   path-exists@2.1.0:
     resolution: {integrity: sha512-yTltuKuhtNeFJKa1PiRzfLAU5182q1y4Eb4XCJ3PBqyzEDkAZRzBrKKBct682ls9reBVHf9udYLN5Nd+K1B9BQ==}
@@ -2622,8 +2622,8 @@ packages:
     resolution: {integrity: sha512-ZOn6nJUgvgC09+doCEF3oB+r3ag7kUvlsXEGX069QRD60p+P3uP7XG9N2/at+EyIRGSN//ZY3LyEotA1YpmjuA==}
     engines: {node: '>=4'}
 
-  tencentcloud-sdk-nodejs@4.1.269:
-    resolution: {integrity: sha512-JFnHRulwhmCDUJ38STuF9xP/5gw6uZka3IFm3T4zu2BIJme1qJ3l8A/QDqw39JZZ+c6vokAYlGWWfUcqQ9bLew==}
+  tencentcloud-sdk-nodejs@4.1.322:
+    resolution: {integrity: sha512-qiCz54QLe8qGQXXdQswSGs+AFnv0fDRb+5d+ym93DxRZKzyTnYM8Ck96Yxnl6hUMAYY+bWUpnOGetijlExSkfw==}
     engines: {node: '>=10'}
 
   terser@4.8.1:
@@ -2786,13 +2786,12 @@ packages:
     resolution: {integrity: sha512-pMZTvIkT1d+TFGvDOqodOclx0QWkkgi6Tdoa8gC8ffGAAqz9pzPTZWAybbsHHoED/ztMtkv/VoYTYyShUn81hA==}
     engines: {node: '>= 0.4.0'}
 
-  uuid@3.4.0:
-    resolution: {integrity: sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==}
-    deprecated: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
+  uuid@11.1.1:
+    resolution: {integrity: sha512-vIYxrBCC/N/K+Js3qSN88go7kIfNPssr/hHCesKCQNAjmgvYS2oqr69kIufEG+O4+PfezOH4EbIeHCfFov8ZgQ==}
     hasBin: true
 
-  uuid@9.0.1:
-    resolution: {integrity: sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA==}
+  uuid@3.4.0:
+    resolution: {integrity: sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==}
     deprecated: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
     hasBin: true
 
@@ -2983,9 +2982,9 @@ snapshots:
 
   acorn@8.12.1: {}
 
-  agent-base@6.0.2:
+  agent-base@6.0.2(supports-color@7.2.0):
     dependencies:
-      debug: 4.4.3
+      debug: 4.4.3(supports-color@7.2.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -3013,9 +3012,9 @@ snapshots:
     dependencies:
       color-convert: 2.0.1
 
-  anymatch@2.0.0:
+  anymatch@2.0.0(supports-color@7.2.0):
     dependencies:
-      micromatch: 3.1.10
+      micromatch: 3.1.10(supports-color@7.2.0)
       normalize-path: 2.1.1
     transitivePeerDependencies:
       - supports-color
@@ -3147,7 +3146,7 @@ snapshots:
     dependencies:
       balanced-match: 1.0.2
 
-  braces@2.3.2:
+  braces@2.3.2(supports-color@7.2.0):
     dependencies:
       arr-flatten: 1.1.0
       array-unique: 0.3.2
@@ -3155,7 +3154,7 @@ snapshots:
       fill-range: 4.0.0
       isobject: 3.0.1
       repeat-element: 1.1.4
-      snapdragon: 0.8.2
+      snapdragon: 0.8.2(supports-color@7.2.0)
       snapdragon-node: 2.1.1
       split-string: 3.1.0
       to-regex: 3.0.2
@@ -3305,18 +3304,18 @@ snapshots:
       parse5: 7.1.2
       parse5-htmlparser2-tree-adapter: 7.0.0
 
-  chokidar@2.1.8:
+  chokidar@2.1.8(supports-color@7.2.0):
     dependencies:
-      anymatch: 2.0.0
+      anymatch: 2.0.0(supports-color@7.2.0)
       async-each: 1.0.6
-      braces: 2.3.2
+      braces: 2.3.2(supports-color@7.2.0)
       glob-parent: 3.1.0
       inherits: 2.0.4
       is-binary-path: 1.0.1
       is-glob: 4.0.3
       normalize-path: 3.0.0
       path-is-absolute: 1.0.1
-      readdirp: 2.2.1
+      readdirp: 2.2.1(supports-color@7.2.0)
       upath: 1.2.0
     optionalDependencies:
       fsevents: 1.2.13
@@ -3397,12 +3396,12 @@ snapshots:
     dependencies:
       mime-db: 1.53.0
 
-  compression@1.7.4:
+  compression@1.7.4(supports-color@7.2.0):
     dependencies:
       accepts: 1.3.8
       bytes: 3.0.0
       compressible: 2.0.18
-      debug: 2.6.9
+      debug: 2.6.9(supports-color@7.2.0)
       on-headers: 1.0.2
       safe-buffer: 5.1.2
       vary: 1.1.2
@@ -3416,10 +3415,10 @@ snapshots:
       ini: 1.3.8
       proto-list: 1.2.4
 
-  connect@3.7.0:
+  connect@3.7.0(supports-color@7.2.0):
     dependencies:
-      debug: 2.6.9
-      finalhandler: 1.1.2
+      debug: 2.6.9(supports-color@7.2.0)
+      finalhandler: 1.1.2(supports-color@7.2.0)
       parseurl: 1.3.3
       utils-merge: 1.0.1
     transitivePeerDependencies:
@@ -3534,17 +3533,23 @@ snapshots:
 
   dayjs@1.11.18: {}
 
-  debug@2.6.9:
+  debug@2.6.9(supports-color@7.2.0):
     dependencies:
       ms: 2.0.0
+    optionalDependencies:
+      supports-color: 7.2.0
 
-  debug@4.3.6:
+  debug@4.3.6(supports-color@7.2.0):
     dependencies:
       ms: 2.1.2
+    optionalDependencies:
+      supports-color: 7.2.0
 
-  debug@4.4.3:
+  debug@4.4.3(supports-color@7.2.0):
     dependencies:
       ms: 2.1.3
+    optionalDependencies:
+      supports-color: 7.2.0
 
   decamelize@1.2.0: {}
 
@@ -3811,7 +3816,7 @@ snapshots:
 
   execa@4.1.0:
     dependencies:
-      cross-spawn: 7.0.3
+      cross-spawn: 7.0.6
       get-stream: 5.2.0
       human-signals: 1.1.1
       is-stream: 2.0.1
@@ -3837,14 +3842,14 @@ snapshots:
     dependencies:
       pify: 2.3.0
 
-  expand-brackets@2.1.4:
+  expand-brackets@2.1.4(supports-color@7.2.0):
     dependencies:
-      debug: 2.6.9
+      debug: 2.6.9(supports-color@7.2.0)
       define-property: 0.2.5
       extend-shallow: 2.0.1
       posix-character-classes: 0.1.1
       regex-not: 1.0.2
-      snapdragon: 0.8.2
+      snapdragon: 0.8.2(supports-color@7.2.0)
       to-regex: 3.0.2
     transitivePeerDependencies:
       - supports-color
@@ -3867,15 +3872,15 @@ snapshots:
       assign-symbols: 1.0.0
       is-extendable: 1.0.1
 
-  extglob@2.0.4:
+  extglob@2.0.4(supports-color@7.2.0):
     dependencies:
       array-unique: 0.3.2
       define-property: 1.0.0
-      expand-brackets: 2.1.4
+      expand-brackets: 2.1.4(supports-color@7.2.0)
       extend-shallow: 2.0.1
       fragment-cache: 0.2.1
       regex-not: 1.0.2
-      snapdragon: 0.8.2
+      snapdragon: 0.8.2(supports-color@7.2.0)
       to-regex: 3.0.2
     transitivePeerDependencies:
       - supports-color
@@ -3947,9 +3952,9 @@ snapshots:
     dependencies:
       to-regex-range: 5.0.1
 
-  finalhandler@1.1.2:
+  finalhandler@1.1.2(supports-color@7.2.0):
     dependencies:
-      debug: 2.6.9
+      debug: 2.6.9(supports-color@7.2.0)
       encodeurl: 1.0.2
       escape-html: 1.0.3
       on-finished: 2.3.0
@@ -4183,10 +4188,6 @@ snapshots:
       is-number: 3.0.0
       kind-of: 4.0.0
 
-  hasown@2.0.3:
-    dependencies:
-      function-bind: 1.1.2
-
   hasown@2.0.4:
     dependencies:
       function-bind: 1.1.2
@@ -4211,18 +4212,18 @@ snapshots:
 
   hexo-bunyan@1.0.0:
     optionalDependencies:
-      moment: 2.30.1
+      moment: 2.31.0
       mv: 2.1.1
       safe-json-stringify: 1.2.0
 
-  hexo-cli@2.0.0:
+  hexo-cli@2.0.0(supports-color@7.2.0):
     dependencies:
       abbrev: 1.1.1
       acorn: 6.4.2
       bluebird: 3.7.2
       chalk: 2.4.2
       command-exists: 1.2.9
-      hexo-fs: 1.0.2
+      hexo-fs: 1.0.2(supports-color@7.2.0)
       hexo-log: 0.2.0
       hexo-util: 0.6.3
       minimist: 1.2.8
@@ -4263,10 +4264,10 @@ snapshots:
     dependencies:
       js-yaml: 4.1.0
 
-  hexo-fs@1.0.2:
+  hexo-fs@1.0.2(supports-color@7.2.0):
     dependencies:
       bluebird: 3.7.2
-      chokidar: 2.1.8
+      chokidar: 2.1.8(supports-color@7.2.0)
       escape-string-regexp: 1.0.5
       graceful-fs: 4.2.11
     transitivePeerDependencies:
@@ -4283,10 +4284,10 @@ snapshots:
     dependencies:
       hexo-pagination: 3.0.0
 
-  hexo-generator-baidu-sitemap@0.1.9(chokidar@3.6.0):
+  hexo-generator-baidu-sitemap@0.1.9(chokidar@3.6.0)(supports-color@7.2.0):
     dependencies:
       ejs: 2.7.4
-      hexo: 3.9.0(chokidar@3.6.0)
+      hexo: 3.9.0(chokidar@3.6.0)(supports-color@7.2.0)
       utils-merge: 1.0.1
     transitivePeerDependencies:
       - chokidar
@@ -4310,8 +4311,8 @@ snapshots:
   hexo-generator-json-content@4.2.3:
     dependencies:
       hexo-util: 4.0.0
-      keyword-extractor: 0.0.28
-      moment: 2.30.1
+      keyword-extractor: 0.3.2
+      moment: 2.31.0
 
   hexo-generator-searchdb@1.5.0(chokidar@3.6.0):
     dependencies:
@@ -4355,11 +4356,11 @@ snapshots:
     dependencies:
       ejs: 3.1.10
 
-  hexo-renderer-marked@7.0.1:
+  hexo-renderer-marked@7.0.1(supports-color@7.2.0):
     dependencies:
       dompurify: 3.2.4
       hexo-util: 3.3.0
-      jsdom: 25.0.1
+      jsdom: 25.0.1(supports-color@7.2.0)
       marked: 15.0.7
     transitivePeerDependencies:
       - bufferutil
@@ -4367,23 +4368,23 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  hexo-renderer-stylus@3.0.1:
+  hexo-renderer-stylus@3.0.1(supports-color@7.2.0):
     dependencies:
-      nib: 1.2.0(stylus@0.62.0)
-      stylus: 0.62.0
+      nib: 1.2.0(stylus@0.62.0(supports-color@7.2.0))
+      stylus: 0.62.0(supports-color@7.2.0)
     transitivePeerDependencies:
       - supports-color
 
-  hexo-server@3.0.0:
+  hexo-server@3.0.0(supports-color@7.2.0):
     dependencies:
       bluebird: 3.7.2
-      compression: 1.7.4
-      connect: 3.7.0
+      compression: 1.7.4(supports-color@7.2.0)
+      connect: 3.7.0(supports-color@7.2.0)
       mime: 3.0.0
-      morgan: 1.10.0
+      morgan: 1.10.0(supports-color@7.2.0)
       open: 8.4.2
       picocolors: 1.0.1
-      serve-static: 1.15.0
+      serve-static: 1.15.0(supports-color@7.2.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -4435,16 +4436,16 @@ snapshots:
     dependencies:
       cargo-cp-artifact: 0.1.9
 
-  hexo@3.9.0(chokidar@3.6.0):
+  hexo@3.9.0(chokidar@3.6.0)(supports-color@7.2.0):
     dependencies:
       abbrev: 1.1.1
       archy: 1.0.0
       bluebird: 3.7.2
       chalk: 2.4.2
       cheerio: 0.22.0
-      hexo-cli: 2.0.0
+      hexo-cli: 2.0.0(supports-color@7.2.0)
       hexo-front-matter: 0.2.3
-      hexo-fs: 1.0.2
+      hexo-fs: 1.0.2(supports-color@7.2.0)
       hexo-i18n: 0.2.1
       hexo-log: 0.2.0
       hexo-util: 0.6.3
@@ -4568,24 +4569,24 @@ snapshots:
       statuses: 2.0.1
       toidentifier: 1.0.1
 
-  http-proxy-agent@7.0.2:
+  http-proxy-agent@7.0.2(supports-color@7.2.0):
     dependencies:
       agent-base: 7.1.4
-      debug: 4.4.3
+      debug: 4.4.3(supports-color@7.2.0)
     transitivePeerDependencies:
       - supports-color
 
-  https-proxy-agent@5.0.1:
+  https-proxy-agent@5.0.1(supports-color@7.2.0):
     dependencies:
-      agent-base: 6.0.2
-      debug: 4.4.3
+      agent-base: 6.0.2(supports-color@7.2.0)
+      debug: 4.4.3(supports-color@7.2.0)
     transitivePeerDependencies:
       - supports-color
 
-  https-proxy-agent@7.0.6:
+  https-proxy-agent@7.0.6(supports-color@7.2.0):
     dependencies:
       agent-base: 7.1.4
-      debug: 4.4.3
+      debug: 4.4.3(supports-color@7.2.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -4688,7 +4689,7 @@ snapshots:
 
   is-core-module@2.15.0:
     dependencies:
-      hasown: 2.0.3
+      hasown: 2.0.4
 
   is-data-descriptor@1.0.1:
     dependencies:
@@ -4812,15 +4813,15 @@ snapshots:
     dependencies:
       argparse: 2.0.1
 
-  jsdom@25.0.1:
+  jsdom@25.0.1(supports-color@7.2.0):
     dependencies:
       cssstyle: 4.2.1
       data-urls: 5.0.0
       decimal.js: 10.5.0
       form-data: 4.0.6
       html-encoding-sniffer: 4.0.0
-      http-proxy-agent: 7.0.2
-      https-proxy-agent: 7.0.6
+      http-proxy-agent: 7.0.2(supports-color@7.2.0)
+      https-proxy-agent: 7.0.6(supports-color@7.2.0)
       is-potential-custom-element-name: 1.0.1
       nwsapi: 2.2.18
       parse5: 7.2.1
@@ -4854,7 +4855,7 @@ snapshots:
     dependencies:
       json-buffer: 3.0.0
 
-  keyword-extractor@0.0.28: {}
+  keyword-extractor@0.3.2: {}
 
   kind-of@3.2.2:
     dependencies:
@@ -4987,20 +4988,20 @@ snapshots:
 
   micro-memoize@4.1.2: {}
 
-  micromatch@3.1.10:
+  micromatch@3.1.10(supports-color@7.2.0):
     dependencies:
       arr-diff: 4.0.0
       array-unique: 0.3.2
-      braces: 2.3.2
+      braces: 2.3.2(supports-color@7.2.0)
       define-property: 2.0.2
       extend-shallow: 3.0.2
-      extglob: 2.0.4
+      extglob: 2.0.4(supports-color@7.2.0)
       fragment-cache: 0.2.1
       kind-of: 6.0.3
-      nanomatch: 1.2.13
+      nanomatch: 1.2.13(supports-color@7.2.0)
       object.pick: 1.3.0
       regex-not: 1.0.2
-      snapdragon: 0.8.2
+      snapdragon: 0.8.2(supports-color@7.2.0)
       to-regex: 3.0.2
     transitivePeerDependencies:
       - supports-color
@@ -5065,10 +5066,12 @@ snapshots:
 
   moment@2.30.1: {}
 
-  morgan@1.10.0:
+  moment@2.31.0: {}
+
+  morgan@1.10.0(supports-color@7.2.0):
     dependencies:
       basic-auth: 2.0.1
-      debug: 2.6.9
+      debug: 2.6.9(supports-color@7.2.0)
       depd: 2.0.0
       on-finished: 2.3.0
       on-headers: 1.0.2
@@ -5096,7 +5099,7 @@ snapshots:
   nan@2.20.0:
     optional: true
 
-  nanomatch@1.2.13:
+  nanomatch@1.2.13(supports-color@7.2.0):
     dependencies:
       arr-diff: 4.0.0
       array-unique: 0.3.2
@@ -5107,7 +5110,7 @@ snapshots:
       kind-of: 6.0.3
       object.pick: 1.3.0
       regex-not: 1.0.2
-      snapdragon: 0.8.2
+      snapdragon: 0.8.2(supports-color@7.2.0)
       to-regex: 3.0.2
     transitivePeerDependencies:
       - supports-color
@@ -5117,9 +5120,9 @@ snapshots:
 
   negotiator@0.6.3: {}
 
-  nib@1.2.0(stylus@0.62.0):
+  nib@1.2.0(stylus@0.62.0(supports-color@7.2.0)):
     dependencies:
-      stylus: 0.62.0
+      stylus: 0.62.0(supports-color@7.2.0)
 
   nice-try@1.0.5: {}
 
@@ -5425,10 +5428,10 @@ snapshots:
       string_decoder: 1.3.0
       util-deprecate: 1.0.2
 
-  readdirp@2.2.1:
+  readdirp@2.2.1(supports-color@7.2.0):
     dependencies:
       graceful-fs: 4.2.11
-      micromatch: 3.1.10
+      micromatch: 3.1.10(supports-color@7.2.0)
       readable-stream: 2.3.8
     transitivePeerDependencies:
       - supports-color
@@ -5533,9 +5536,9 @@ snapshots:
 
   semver@6.3.1: {}
 
-  send@0.18.0:
+  send@0.18.0(supports-color@7.2.0):
     dependencies:
-      debug: 2.6.9
+      debug: 2.6.9(supports-color@7.2.0)
       depd: 2.0.0
       destroy: 1.2.0
       encodeurl: 1.0.2
@@ -5551,12 +5554,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  serve-static@1.15.0:
+  serve-static@1.15.0(supports-color@7.2.0):
     dependencies:
       encodeurl: 1.0.2
       escape-html: 1.0.3
       parseurl: 1.3.3
-      send: 0.18.0
+      send: 0.18.0(supports-color@7.2.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -5595,10 +5598,10 @@ snapshots:
     dependencies:
       kind-of: 3.2.2
 
-  snapdragon@0.8.2:
+  snapdragon@0.8.2(supports-color@7.2.0):
     dependencies:
       base: 0.11.2
-      debug: 2.6.9
+      debug: 2.6.9(supports-color@7.2.0)
       define-property: 0.2.5
       extend-shallow: 2.0.1
       map-cache: 0.2.2
@@ -5737,10 +5740,10 @@ snapshots:
 
   strnum@1.0.5: {}
 
-  stylus@0.62.0:
+  stylus@0.62.0(supports-color@7.2.0):
     dependencies:
       '@adobe/css-tools': 4.3.3
-      debug: 4.3.6
+      debug: 4.3.6(supports-color@7.2.0)
       glob: 7.2.3
       sax: 1.3.0
       source-map: 0.7.4
@@ -5797,17 +5800,17 @@ snapshots:
       temp-dir: 1.0.0
       uuid: 3.4.0
 
-  tencentcloud-sdk-nodejs@4.1.269:
+  tencentcloud-sdk-nodejs@4.1.322(supports-color@7.2.0):
     dependencies:
       form-data: 3.0.5
       get-stream: 6.0.1
-      https-proxy-agent: 5.0.1
+      https-proxy-agent: 5.0.1(supports-color@7.2.0)
       ini: 2.0.0
       is-stream: 2.0.1
       json-bigint: 1.0.0
       node-fetch: 2.7.0
       tslib: 1.13.0
-      uuid: 9.0.1
+      uuid: 11.1.1
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -5949,9 +5952,9 @@ snapshots:
 
   utils-merge@1.0.1: {}
 
-  uuid@3.4.0: {}
+  uuid@11.1.1: {}
 
-  uuid@9.0.1: {}
+  uuid@3.4.0: {}
 
   validate-npm-package-license@3.0.4:
     dependencies:
